@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg",
+ "split": "train",
+ "dataset_row_index": 6393,
+ "example_slot": 1,
+ "rng_seed": 288072,
+ "category_name": "ski pole . chairs . table lamp . diffusor . wall . ceiling . ceiling recessed light . poncho . light troffer . light source . shade . picture . suspensions",
+ "n_instances": 29,
+ "metadata_augmentation": null
+}

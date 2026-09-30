@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_pancap",
+ "split": "train",
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 163739,
+ "category_name": "This image captures a domestic scene with a cat resting on a bed in the foreground. There is a polished brown wooden floor and a cream-colored ceiling. In the foreground, a dark-furred cat sits atop a bed covered in a rumpled grey patterned blanket. A small red ball sits alone on the floor in the middle ground. Further back, there are a dark wooden couch, a chair, and a small potted plant next to a small light source. An open blue-framed glass door leads outdoors. A vertical blue curtain is also visible on the left side of the scene.",
+ "n_instances": 12,
+ "metadata_augmentation": null
+}

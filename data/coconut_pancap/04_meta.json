@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_pancap",
+ "split": "train",
+ "dataset_row_index": 104217,
+ "example_slot": 4,
+ "rng_seed": 582655,
+ "category_name": "This image depicts a scene at a dining table. On a white table, there is a white bowl. Next to the white bowl is a light green bowl. There is also a light green bowl. Behind a white bottle, there are two silver spoons. In the background, there is a silver box.",
+ "n_instances": 7,
+ "metadata_augmentation": null
+}

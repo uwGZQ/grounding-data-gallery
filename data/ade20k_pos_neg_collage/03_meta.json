@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg_collage",
+ "split": "train",
+ "dataset_row_index": 19180,
+ "example_slot": 3,
+ "rng_seed": 452304,
+ "category_name": "slow cooker . tree . wig . tissue . stalls . bench . violoncello . awning . hand trolley . goblet . car . taillight . ticket counter . television stand . headphones . mountain . suspension rope bridge . back pillow . ladder . raw disposal basket . garage door . security door . power outlet . sunglasses . paddles . vase . putting green . bycicle carriage . bricks . eye . water tank . suitcase . arm . oil jar . mound . net . peaked cap . balloon . manometer . rest . barrack buildings . hair . railway engine . rocky ceiling . baby chair . bamboo canes . autopsy table . saucepan . luggage rack . trunks . courts",
+ "n_instances": 20,
+ "metadata_augmentation": "collage"
+}

@@ -1,0 +1,10 @@
+{
+ "dataset": "rf100_all_cat",
+ "split": "train",
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 123526,
+ "category_name": "notes . blue robot",
+ "n_instances": 3,
+ "metadata_augmentation": null
+}

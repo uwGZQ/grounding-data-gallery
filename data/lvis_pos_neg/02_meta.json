@@ -1,0 +1,10 @@
+{
+ "dataset": "lvis_pos_neg",
+ "split": "train",
+ "dataset_row_index": 49694,
+ "example_slot": 2,
+ "rng_seed": 367048,
+ "category_name": "dining table . broccoli . umbrella . cappuccino",
+ "n_instances": 8,
+ "metadata_augmentation": null
+}

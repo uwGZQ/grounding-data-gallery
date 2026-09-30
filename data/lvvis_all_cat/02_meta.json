@@ -1,0 +1,294 @@
+{
+ "dataset": "lvvis_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "lvvis",
+ "loader_len": 3054,
+ "dataset_row_index": 1221,
+ "example_slot": 2,
+ "rng_seed": 319843,
+ "source_parquet": "grounding_data/video_data/LV-VIS/cache/lvvis_train.parquet",
+ "style": "video_instance",
+ "video_id": "1135",
+ "video_name": "01135",
+ "frames_dir": "mm-olmo/video_datasets/LV-VIS/train/JPEGImages/01135",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00024",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 25,
+ "stored_fps": 5.0,
+ "duration_s": 5.0,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "rendered_playback_fps": 5.0,
+ "contact_sheet_frame_positions": [
+  0,
+  3,
+  7,
+  10,
+  14,
+  17,
+  21,
+  24
+ ],
+ "category_name": "cushion . green plants (potted plants) . handle . inflatable bed . person . pillow . side table . sofa . trousers",
+ "n_instances": 12,
+ "instances": [
+  {
+   "index": 0,
+   "id": 5992,
+   "label": "inflatable bed",
+   "char_spans": [
+    [
+     50,
+     64
+    ]
+   ],
+   "span_text": [
+    "inflatable bed"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 1,
+   "id": 5993,
+   "label": "sofa",
+   "char_spans": [
+    [
+     98,
+     102
+    ]
+   ],
+   "span_text": [
+    "sofa"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 2,
+   "id": 5994,
+   "label": "side table",
+   "char_spans": [
+    [
+     85,
+     95
+    ]
+   ],
+   "span_text": [
+    "side table"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 3,
+   "id": 5995,
+   "label": "green plants (potted plants)",
+   "char_spans": [
+    [
+     10,
+     38
+    ]
+   ],
+   "span_text": [
+    "green plants (potted plants)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 4,
+   "id": 5996,
+   "label": "cushion",
+   "char_spans": [
+    [
+     0,
+     7
+    ]
+   ],
+   "span_text": [
+    "cushion"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 5,
+   "id": 5997,
+   "label": "handle",
+   "char_spans": [
+    [
+     41,
+     47
+    ]
+   ],
+   "span_text": [
+    "handle"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 6,
+   "id": 5998,
+   "label": "sofa",
+   "char_spans": [
+    [
+     98,
+     102
+    ]
+   ],
+   "span_text": [
+    "sofa"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 7,
+   "id": 5999,
+   "label": "person",
+   "char_spans": [
+    [
+     67,
+     73
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 8,
+   "id": 6000,
+   "label": "sofa",
+   "char_spans": [
+    [
+     98,
+     102
+    ]
+   ],
+   "span_text": [
+    "sofa"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 9,
+   "id": 6001,
+   "label": "sofa",
+   "char_spans": [
+    [
+     98,
+     102
+    ]
+   ],
+   "span_text": [
+    "sofa"
+   ],
+   "iscrowd": 0,
+   "frames_present": 22,
+   "first_present_frame": 3,
+   "last_present_frame": 24
+  },
+  {
+   "index": 10,
+   "id": 6002,
+   "label": "pillow",
+   "char_spans": [
+    [
+     76,
+     82
+    ]
+   ],
+   "span_text": [
+    "pillow"
+   ],
+   "iscrowd": 0,
+   "frames_present": 11,
+   "first_present_frame": 14,
+   "last_present_frame": 24
+  },
+  {
+   "index": 11,
+   "id": 6003,
+   "label": "trousers",
+   "char_spans": [
+    [
+     105,
+     113
+    ]
+   ],
+   "span_text": [
+    "trousers"
+   ],
+   "iscrowd": 0,
+   "frames_present": 11,
+   "first_present_frame": 14,
+   "last_present_frame": 24
+  }
+ ],
+ "metadata": {
+  "dataset": "LVVISAllCat",
+  "video_id": "1135",
+  "video_name": "01135",
+  "num_masklets": 12
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_obj_pos_neg",
+ "split": "train",
+ "dataset_row_index": 345630,
+ "example_slot": 4,
+ "rng_seed": 583985,
+ "category_name": "platform . wall . hair drier . person",
+ "n_instances": 10,
+ "metadata_augmentation": null
+}

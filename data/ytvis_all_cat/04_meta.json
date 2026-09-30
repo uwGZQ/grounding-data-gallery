@@ -1,0 +1,113 @@
+{
+ "dataset": "ytvis_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "ytvis",
+ "loader_len": 2985,
+ "dataset_row_index": 2388,
+ "example_slot": 4,
+ "rng_seed": 532032,
+ "source_parquet": "grounding_data/video_data/YT-VIS/cache/ytvis_train.parquet",
+ "style": "video_instance",
+ "video_id": "2377",
+ "video_name": "3b729ff6dd",
+ "frames_dir": "mm-olmo/video_datasets/YT-VIS/train/videos",
+ "video_path": "mm-olmo/video_datasets/YT-VIS/train/videos/3b729ff6dd.mp4",
+ "first_frame": "00000",
+ "last_frame": "00205",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 42,
+ "stored_fps": 6.0,
+ "duration_s": 7.0,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  6,
+  12,
+  18,
+  23,
+  29,
+  35,
+  41
+ ],
+ "category_name": "fish",
+ "n_instances": 1,
+ "instances": [
+  {
+   "index": 0,
+   "id": 4189,
+   "label": "fish",
+   "char_spans": [
+    [
+     0,
+     4
+    ]
+   ],
+   "span_text": [
+    "fish"
+   ],
+   "iscrowd": 0,
+   "frames_present": 42,
+   "first_present_frame": 0,
+   "last_present_frame": 41
+  }
+ ],
+ "metadata": {
+  "dataset": "YTVISAllCat",
+  "video_id": "2377",
+  "video_name": "3b729ff6dd",
+  "num_masklets": 1
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

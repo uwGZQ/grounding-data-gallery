@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg_crop",
+ "split": "train",
+ "dataset_row_index": 12786,
+ "example_slot": 2,
+ "rng_seed": 334804,
+ "category_name": "swings . cages . pen set . snowboarder . sky . towel rail . x-rays . dam",
+ "n_instances": 1,
+ "metadata_augmentation": "crop"
+}

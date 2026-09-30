@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg_collage",
+ "split": "train",
+ "dataset_row_index": 6393,
+ "example_slot": 1,
+ "rng_seed": 242846,
+ "category_name": "armchair . pine decor . throne . factory . fuel can . head deer . ball rack . seat belt clipper . pplant . railing . buttocks . music devices . door bars . school desk . trees . trays . umbrella . cone . tart . _ñamts . vending machine . deck chair . city . divider . light troffer . sign . garlic . motorbikes . ceiling . dish rack . clock face . professional degree . chair",
+ "n_instances": 24,
+ "metadata_augmentation": "collage"
+}

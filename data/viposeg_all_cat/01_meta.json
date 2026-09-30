@@ -1,0 +1,195 @@
+{
+ "dataset": "viposeg_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "viposeg",
+ "loader_len": 2800,
+ "dataset_row_index": 560,
+ "example_slot": 1,
+ "rng_seed": 223859,
+ "source_parquet": "grounding_data/video_data/VIPOSeg/cache/viposeg_train.parquet",
+ "style": "video_instance",
+ "video_id": "134_Iuv__-nyO1M",
+ "video_name": "134_Iuv__-nyO1M",
+ "frames_dir": "grounding_data/video_data/VIPOSeg/train/JPEGImages/134_Iuv__-nyO1M",
+ "video_path": null,
+ "first_frame": "00001142",
+ "last_frame": "00001187",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 16,
+ "stored_fps": 6.0,
+ "duration_s": 2.667,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  2,
+  4,
+  6,
+  9,
+  11,
+  13,
+  15
+ ],
+ "category_name": "ground . mountain . other plant . person . sky . snowfield",
+ "n_instances": 7,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1,
+   "label": "ground",
+   "char_spans": [
+    [
+     0,
+     6
+    ]
+   ],
+   "span_text": [
+    "ground"
+   ],
+   "iscrowd": 0,
+   "frames_present": 16,
+   "first_present_frame": 0,
+   "last_present_frame": 15
+  },
+  {
+   "index": 1,
+   "id": 2,
+   "label": "sky",
+   "char_spans": [
+    [
+     43,
+     46
+    ]
+   ],
+   "span_text": [
+    "sky"
+   ],
+   "iscrowd": 0,
+   "frames_present": 16,
+   "first_present_frame": 0,
+   "last_present_frame": 15
+  },
+  {
+   "index": 2,
+   "id": 3,
+   "label": "mountain",
+   "char_spans": [
+    [
+     9,
+     17
+    ]
+   ],
+   "span_text": [
+    "mountain"
+   ],
+   "iscrowd": 0,
+   "frames_present": 16,
+   "first_present_frame": 0,
+   "last_present_frame": 15
+  },
+  {
+   "index": 3,
+   "id": 4,
+   "label": "snowfield",
+   "char_spans": [
+    [
+     49,
+     58
+    ]
+   ],
+   "span_text": [
+    "snowfield"
+   ],
+   "iscrowd": 0,
+   "frames_present": 16,
+   "first_present_frame": 0,
+   "last_present_frame": 15
+  },
+  {
+   "index": 4,
+   "id": 5,
+   "label": "other plant",
+   "char_spans": [
+    [
+     20,
+     31
+    ]
+   ],
+   "span_text": [
+    "other plant"
+   ],
+   "iscrowd": 0,
+   "frames_present": 16,
+   "first_present_frame": 0,
+   "last_present_frame": 15
+  },
+  {
+   "index": 5,
+   "id": 6,
+   "label": "person",
+   "char_spans": [
+    [
+     34,
+     40
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 16,
+   "first_present_frame": 0,
+   "last_present_frame": 15
+  },
+  {
+   "index": 6,
+   "id": 7,
+   "label": "person",
+   "char_spans": [
+    [
+     34,
+     40
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 16,
+   "first_present_frame": 0,
+   "last_present_frame": 15
+  }
+ ],
+ "metadata": {
+  "dataset": "VIPOSegAllCat",
+  "video_id": "134_Iuv__-nyO1M",
+  "video_name": "134_Iuv__-nyO1M",
+  "num_masklets": 7
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

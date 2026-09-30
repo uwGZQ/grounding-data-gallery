@@ -1,0 +1,275 @@
+{
+ "dataset": "vicas_actions",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "vicas_caption_actions",
+ "loader_len": 12211,
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 168180,
+ "source_parquet": "grounding_data/video_data/ViCaS/cache/vicas_train_actions.parquet",
+ "style": "video_caption_actions",
+ "video_id": "026699",
+ "video_name": "026699_3_BCAxR2OAw.mp4",
+ "frames_dir": "grounding_data/video_data/ViCaS/video_frames/026699",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00299",
+ "height": 480,
+ "width": 854,
+ "num_frames": 300,
+ "stored_fps": 30.0,
+ "duration_s": 10.0,
+ "rendered_frame_positions": [
+  0,
+  5,
+  10,
+  15,
+  20,
+  25,
+  30,
+  35,
+  40,
+  45,
+  50,
+  55,
+  60,
+  65,
+  70,
+  75,
+  80,
+  85,
+  90,
+  95,
+  100,
+  105,
+  110,
+  115,
+  120,
+  125,
+  130,
+  135,
+  140,
+  145,
+  150,
+  155,
+  160,
+  165,
+  170,
+  175,
+  180,
+  185,
+  190,
+  195,
+  200,
+  205,
+  210,
+  215,
+  220,
+  225,
+  230,
+  235,
+  240,
+  245,
+  250,
+  255,
+  260,
+  265,
+  270,
+  275,
+  280,
+  285,
+  290,
+  295
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  40,
+  85,
+  125,
+  170,
+  210,
+  255,
+  295
+ ],
+ "category_name": "A competitor number 6 is sliding down. He holds ski poles and wears a pair of skis.",
+ "n_instances": 4,
+ "instances": [
+  {
+   "index": 0,
+   "id": 0,
+   "label": "A competitor / He",
+   "char_spans": [
+    [
+     0,
+     12
+    ],
+    [
+     39,
+     41
+    ]
+   ],
+   "span_text": [
+    "A competitor",
+    "He"
+   ],
+   "iscrowd": 0,
+   "frames_present": 300,
+   "first_present_frame": 0,
+   "last_present_frame": 299
+  },
+  {
+   "index": 1,
+   "id": 1,
+   "label": "ski poles",
+   "char_spans": [
+    [
+     48,
+     57
+    ]
+   ],
+   "span_text": [
+    "ski poles"
+   ],
+   "iscrowd": 0,
+   "frames_present": 240,
+   "first_present_frame": 0,
+   "last_present_frame": 244
+  },
+  {
+   "index": 2,
+   "id": 2,
+   "label": "ski poles",
+   "char_spans": [
+    [
+     48,
+     57
+    ]
+   ],
+   "span_text": [
+    "ski poles"
+   ],
+   "iscrowd": 0,
+   "frames_present": 124,
+   "first_present_frame": 19,
+   "last_present_frame": 235
+  },
+  {
+   "index": 3,
+   "id": 3,
+   "label": "a pair of skis",
+   "char_spans": [
+    [
+     68,
+     82
+    ]
+   ],
+   "span_text": [
+    "a pair of skis"
+   ],
+   "iscrowd": 0,
+   "frames_present": 215,
+   "first_present_frame": 6,
+   "last_present_frame": 239
+  }
+ ],
+ "metadata": {
+  "dataset": "vicas_actions",
+  "video_id": "026699",
+  "video_name": "026699_3_BCAxR2OAw.mp4",
+  "num_groups": 4,
+  "num_actions": 3
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ },
+ "n_actions": 3,
+ "actions": [
+  {
+   "index": 0,
+   "action_id": 0,
+   "text": [
+    "is sliding"
+   ],
+   "char_spans": [
+    [
+     22,
+     32
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     0,
+     233
+    ]
+   ],
+   "segments_s": [
+    [
+     0.0,
+     7.8
+    ]
+   ],
+   "temporal_confidence": "high"
+  },
+  {
+   "index": 1,
+   "action_id": 1,
+   "text": [
+    "holds"
+   ],
+   "char_spans": [
+    [
+     42,
+     47
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     0,
+     233
+    ]
+   ],
+   "segments_s": [
+    [
+     0.0,
+     7.8
+    ]
+   ],
+   "temporal_confidence": "high"
+  },
+  {
+   "index": 2,
+   "action_id": 2,
+   "text": [
+    "wears"
+   ],
+   "char_spans": [
+    [
+     62,
+     67
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     0,
+     233
+    ]
+   ],
+   "segments_s": [
+    [
+     0.0,
+     7.8
+    ]
+   ],
+   "temporal_confidence": "high"
+  }
+ ]
+}

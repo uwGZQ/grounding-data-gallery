@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_flickr30k",
+ "split": "train",
+ "dataset_row_index": 83880,
+ "example_slot": 3,
+ "rng_seed": 411598,
+ "category_name": "Old man is fixing overturned bike.",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

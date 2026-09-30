@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg_crop",
+ "split": "train",
+ "dataset_row_index": 6393,
+ "example_slot": 1,
+ "rng_seed": 230075,
+ "category_name": "dresses . table . hose . big wheel . blinds . ceiling recessed light . highlight . diffusor . light troffer . floor . picture . door . chairs",
+ "n_instances": 24,
+ "metadata_augmentation": "crop"
+}

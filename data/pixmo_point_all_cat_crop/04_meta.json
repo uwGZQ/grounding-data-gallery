@@ -1,0 +1,10 @@
+{
+ "dataset": "pixmo_point_all_cat_crop",
+ "split": "train",
+ "dataset_row_index": 56830,
+ "example_slot": 4,
+ "rng_seed": 566858,
+ "category_name": "Candles",
+ "n_instances": 10,
+ "metadata_augmentation": "crop"
+}

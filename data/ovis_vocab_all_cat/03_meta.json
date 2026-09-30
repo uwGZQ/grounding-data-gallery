@@ -1,0 +1,313 @@
+{
+ "dataset": "ovis_vocab_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "ovis",
+ "loader_len": 607,
+ "dataset_row_index": 404,
+ "example_slot": 3,
+ "rng_seed": 419603,
+ "source_parquet": "grounding_data/video_data/OVIS/cache/ovis_train.parquet",
+ "style": "video_instance",
+ "video_id": "405",
+ "video_name": "f6f8b4a6",
+ "frames_dir": "mm-olmo/video_datasets/OVIS/train/f6f8b4a6",
+ "video_path": null,
+ "first_frame": "img_0000001",
+ "last_frame": "img_0000080",
+ "height": 648,
+ "width": 1280,
+ "num_frames": 80,
+ "stored_fps": 6.0,
+ "duration_s": 13.333,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  11,
+  23,
+  34,
+  45,
+  56,
+  68,
+  79
+ ],
+ "category_name": "airplane . bear . bicycle . bird . boat . cat . cow . dog . elephant . fish . giant panda . giraffe . horse . lizard . monkey . motorcycle . parrot . person . poultry . rabbit . sheep . tiger . turtle . vehical . zebra",
+ "n_instances": 10,
+ "instances": [
+  {
+   "index": 0,
+   "id": 2401,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 80,
+   "first_present_frame": 0,
+   "last_present_frame": 79
+  },
+  {
+   "index": 1,
+   "id": 2402,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 80,
+   "first_present_frame": 0,
+   "last_present_frame": 79
+  },
+  {
+   "index": 2,
+   "id": 2403,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 79,
+   "first_present_frame": 0,
+   "last_present_frame": 79
+  },
+  {
+   "index": 3,
+   "id": 2404,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 78,
+   "first_present_frame": 0,
+   "last_present_frame": 79
+  },
+  {
+   "index": 4,
+   "id": 2405,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 79,
+   "first_present_frame": 0,
+   "last_present_frame": 79
+  },
+  {
+   "index": 5,
+   "id": 2406,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 79,
+   "first_present_frame": 0,
+   "last_present_frame": 79
+  },
+  {
+   "index": 6,
+   "id": 2407,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 78,
+   "first_present_frame": 0,
+   "last_present_frame": 79
+  },
+  {
+   "index": 7,
+   "id": 2408,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 53,
+   "first_present_frame": 0,
+   "last_present_frame": 79
+  },
+  {
+   "index": 8,
+   "id": 2409,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 34,
+   "first_present_frame": 0,
+   "last_present_frame": 76
+  },
+  {
+   "index": 9,
+   "id": 2410,
+   "label": "giraffe",
+   "char_spans": [
+    [
+     92,
+     99
+    ]
+   ],
+   "span_text": [
+    "giraffe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 45,
+   "first_present_frame": 16,
+   "last_present_frame": 60
+  }
+ ],
+ "metadata": {
+  "dataset": "OVISVocabAllCat",
+  "video_id": "405",
+  "video_name": "f6f8b4a6",
+  "num_masklets": 10
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

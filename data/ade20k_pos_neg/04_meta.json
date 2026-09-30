@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg",
+ "split": "train",
+ "dataset_row_index": 25573,
+ "example_slot": 4,
+ "rng_seed": 602259,
+ "category_name": "electricity meter . sheep . ball . apron . dish soap . tent . towel paper . person . pigeonhole . sea water . backplaete . ventilation shaft",
+ "n_instances": 5,
+ "metadata_augmentation": null
+}

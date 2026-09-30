@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_gqa",
+ "split": "train",
+ "dataset_row_index": 301532,
+ "example_slot": 3,
+ "rng_seed": 483198,
+ "category_name": "man water skiing. What makes up the silver ring, steel or plastic?",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

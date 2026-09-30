@@ -1,0 +1,168 @@
+{
+ "dataset": "lvvis_pos_neg",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "lvvis",
+ "loader_len": 3054,
+ "dataset_row_index": 814,
+ "example_slot": 1,
+ "rng_seed": 204837,
+ "source_parquet": "grounding_data/video_data/LV-VIS/cache/lvvis_train.parquet",
+ "style": "video_instance",
+ "video_id": "784",
+ "video_name": "00784",
+ "frames_dir": "mm-olmo/video_datasets/LV-VIS/train/JPEGImages/00784",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00024",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 25,
+ "stored_fps": 5.0,
+ "duration_s": 5.0,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "rendered_playback_fps": 5.0,
+ "contact_sheet_frame_positions": [
+  0,
+  3,
+  7,
+  10,
+  14,
+  17,
+  21,
+  24
+ ],
+ "category_name": "trousers . nightshirt . shoe . person . scallops . manual (instruction book) . sweater",
+ "n_instances": 5,
+ "instances": [
+  {
+   "index": 0,
+   "id": 3964,
+   "label": "sweater",
+   "char_spans": [
+    [
+     79,
+     86
+    ]
+   ],
+   "span_text": [
+    "sweater"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 1,
+   "id": 3965,
+   "label": "person",
+   "char_spans": [
+    [
+     31,
+     37
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 2,
+   "id": 3967,
+   "label": "trousers",
+   "char_spans": [
+    [
+     0,
+     8
+    ]
+   ],
+   "span_text": [
+    "trousers"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 3,
+   "id": 3968,
+   "label": "shoe",
+   "char_spans": [
+    [
+     24,
+     28
+    ]
+   ],
+   "span_text": [
+    "shoe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 21,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  },
+  {
+   "index": 4,
+   "id": 3969,
+   "label": "shoe",
+   "char_spans": [
+    [
+     24,
+     28
+    ]
+   ],
+   "span_text": [
+    "shoe"
+   ],
+   "iscrowd": 0,
+   "frames_present": 23,
+   "first_present_frame": 2,
+   "last_present_frame": 24
+  }
+ ],
+ "metadata": {
+  "dataset": "LVVISPosNeg",
+  "video_id": "784",
+  "video_name": "00784",
+  "num_masklets": 5
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

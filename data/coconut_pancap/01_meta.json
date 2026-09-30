@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_pancap",
+ "split": "train",
+ "dataset_row_index": 26054,
+ "example_slot": 1,
+ "rng_seed": 268468,
+ "category_name": "This image depicts an outdoor scene of a man surfing. Under a light gray sky, he is standing on a white surfboard with black patterns.",
+ "n_instances": 3,
+ "metadata_augmentation": null
+}

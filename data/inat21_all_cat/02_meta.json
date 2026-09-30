@@ -1,0 +1,13 @@
+{
+ "dataset": "inat21_all_cat",
+ "split": "train",
+ "dataset_row_index": 618,
+ "example_slot": 2,
+ "rng_seed": 397150,
+ "category_name": "Macropus robustus",
+ "n_instances": 1,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/iNat21/cache/inat21_filtered_train.parquet",
+ "image_id": 2734966,
+ "image_path": "grounding_data/iNat21/images/val/04738_Animalia_Chordata_Mammalia_Diprotodontia_Macropodidae_Macropus_robustus/313d82c5-6c9b-4a23-803c-dd337789063f.jpg"
+}

@@ -1,0 +1,10 @@
+{
+ "dataset": "coco_instance_vocab_all_cat",
+ "split": "train",
+ "dataset_row_index": 117265,
+ "example_slot": 4,
+ "rng_seed": 583843,
+ "category_name": "cow . toilet . snowboard . sandwich . couch . cell phone . clock . baseball bat . handbag . motorcycle . tie . airplane . sink . toaster . boat . traffic light . keyboard . cup . giraffe . umbrella . zebra . bed . vase . bear . stop sign . baseball glove . toothbrush . laptop . tennis racket . sheep . mouse . backpack . skis . hot dog . microwave . elephant . tv . dining table . cat . knife . parking meter . fire hydrant . sports ball . skateboard . car . suitcase . wine glass . horse . broccoli . dog . surfboard . scissors . bicycle . orange . bottle . oven . apple . bench . spoon . pizza . teddy bear . donut . hair drier . bowl . frisbee . fork . carrot . bird . remote . bus . train . truck . cake . book . kite . refrigerator . banana . person . chair . potted plant",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

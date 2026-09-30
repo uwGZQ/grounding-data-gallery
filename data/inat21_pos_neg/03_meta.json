@@ -1,0 +1,13 @@
+{
+ "dataset": "inat21_pos_neg",
+ "split": "train",
+ "dataset_row_index": 928,
+ "example_slot": 3,
+ "rng_seed": 491602,
+ "category_name": "Tachycineta albiventer . Microcanthus strigatus",
+ "n_instances": 1,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/iNat21/cache/inat21_filtered_train.parquet",
+ "image_id": 2761680,
+ "image_path": "grounding_data/iNat21/images/val/03863_Animalia_Chordata_Aves_Passeriformes_Hirundinidae_Tachycineta_albiventer/5e7b67b1-2229-4464-8e42-ba1a7ecb10f6.jpg"
+}

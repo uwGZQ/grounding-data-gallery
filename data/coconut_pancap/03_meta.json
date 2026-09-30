@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_pancap",
+ "split": "train",
+ "dataset_row_index": 78163,
+ "example_slot": 3,
+ "rng_seed": 477926,
+ "category_name": "This image depicts two colorful vehicles parked on a light-colored, dusty road. The scene is set under a vast, overcast sky. The road curves through the center of the scene, bordered by rough, sandy dirt and gray gravel. A large pink food truck is parked, and a group of people are gathered nearby next to a red octagonal stop sign. Parked just past the pink truck is a compact yellow utility truck. The combination of the bright vehicles and the expansive natural setting creates a striking contrast.",
+ "n_instances": 10,
+ "metadata_augmentation": null
+}

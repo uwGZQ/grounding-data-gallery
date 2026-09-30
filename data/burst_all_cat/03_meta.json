@@ -1,0 +1,353 @@
+{
+ "dataset": "burst_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "burst",
+ "loader_len": 500,
+ "dataset_row_index": 300,
+ "example_slot": 3,
+ "rng_seed": 478296,
+ "source_parquet": "grounding_data/video_data/BURST/cache/burst_train.parquet",
+ "style": "video_instance",
+ "video_id": "1768",
+ "video_name": "LaSOT__car-17",
+ "frames_dir": "mm-olmo/video_datasets/TAO-Amodal/frames/train/LaSOT/car-17",
+ "video_path": null,
+ "first_frame": "00000541",
+ "last_frame": "00001711",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 235,
+ "stored_fps": 6.0,
+ "duration_s": 39.167,
+ "rendered_frame_positions": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  14,
+  16,
+  18,
+  20,
+  22,
+  24,
+  26,
+  28,
+  29,
+  31,
+  33,
+  35,
+  37,
+  39,
+  41,
+  43,
+  45,
+  47,
+  49,
+  51,
+  53,
+  55,
+  57,
+  59,
+  61,
+  63,
+  65,
+  67,
+  69,
+  71,
+  73,
+  75,
+  77,
+  79,
+  81,
+  83,
+  85,
+  87,
+  88,
+  90,
+  92,
+  94,
+  96,
+  98,
+  100,
+  102,
+  104,
+  106,
+  108,
+  110,
+  112,
+  114,
+  116,
+  118,
+  120,
+  122,
+  124,
+  126,
+  128,
+  130,
+  132,
+  134,
+  136,
+  138,
+  140,
+  142,
+  144,
+  146,
+  147,
+  149,
+  151,
+  153,
+  155,
+  157,
+  159,
+  161,
+  163,
+  165,
+  167,
+  169,
+  171,
+  173,
+  175,
+  177,
+  179,
+  181,
+  183,
+  185,
+  187,
+  189,
+  191,
+  193,
+  195,
+  197,
+  199,
+  201,
+  203,
+  205,
+  206,
+  208,
+  210,
+  212,
+  214,
+  216,
+  218,
+  220,
+  222,
+  224,
+  226,
+  228,
+  230,
+  232,
+  234
+ ],
+ "rendered_playback_fps": 3.051,
+ "contact_sheet_frame_positions": [
+  0,
+  33,
+  67,
+  100,
+  134,
+  167,
+  201,
+  234
+ ],
+ "category_name": "car (automobile)",
+ "n_instances": 10,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 235,
+   "first_present_frame": 0,
+   "last_present_frame": 234
+  },
+  {
+   "index": 1,
+   "id": 2,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 47,
+   "first_present_frame": 0,
+   "last_present_frame": 46
+  },
+  {
+   "index": 2,
+   "id": 3,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 117,
+   "first_present_frame": 6,
+   "last_present_frame": 130
+  },
+  {
+   "index": 3,
+   "id": 4,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 122,
+   "first_present_frame": 13,
+   "last_present_frame": 139
+  },
+  {
+   "index": 4,
+   "id": 5,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 78,
+   "first_present_frame": 73,
+   "last_present_frame": 196
+  },
+  {
+   "index": 5,
+   "id": 6,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 85,
+   "first_present_frame": 87,
+   "last_present_frame": 179
+  },
+  {
+   "index": 6,
+   "id": 7,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 29,
+   "first_present_frame": 135,
+   "last_present_frame": 163
+  },
+  {
+   "index": 7,
+   "id": 8,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 81,
+   "first_present_frame": 145,
+   "last_present_frame": 234
+  },
+  {
+   "index": 8,
+   "id": 9,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 35,
+   "first_present_frame": 162,
+   "last_present_frame": 212
+  },
+  {
+   "index": 9,
+   "id": 10,
+   "label": "car (automobile)",
+   "char_spans": [
+    [
+     0,
+     16
+    ]
+   ],
+   "span_text": [
+    "car (automobile)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 62,
+   "first_present_frame": 163,
+   "last_present_frame": 234
+  }
+ ],
+ "metadata": {
+  "dataset": "BURSTAllCat",
+  "video_id": "1768",
+  "video_name": "LaSOT__car-17",
+  "num_masklets": 10
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

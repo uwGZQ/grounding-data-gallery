@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg_collage",
+ "split": "train",
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 138117,
+ "category_name": "clutch pedal . price tag . porexpan board . baseboard . pillow . car wreck . door frame . materials . railway engine . hull . gauge . industrial building . sand beach . sand hill . millrace . dye . alarm clock . fire utensils",
+ "n_instances": 6,
+ "metadata_augmentation": "collage"
+}

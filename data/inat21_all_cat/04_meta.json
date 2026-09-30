@@ -1,0 +1,13 @@
+{
+ "dataset": "inat21_all_cat",
+ "split": "train",
+ "dataset_row_index": 1237,
+ "example_slot": 4,
+ "rng_seed": 606608,
+ "category_name": "Osteopilus septentrionalis",
+ "n_instances": 1,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/iNat21/cache/inat21_filtered_train.parquet",
+ "image_id": 2786556,
+ "image_path": "grounding_data/iNat21/images/val/02995_Animalia_Chordata_Amphibia_Anura_Hylidae_Osteopilus_septentrionalis/8d8d935e-5281-47a2-8cf8-de1cf7d829d7.jpg"
+}

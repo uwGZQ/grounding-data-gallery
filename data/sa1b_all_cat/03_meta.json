@@ -1,0 +1,10 @@
+{
+ "dataset": "sa1b_all_cat",
+ "split": "train",
+ "dataset_row_index": 53307,
+ "example_slot": 3,
+ "rng_seed": 421007,
+ "category_name": "person",
+ "n_instances": 1,
+ "metadata_augmentation": null
+}

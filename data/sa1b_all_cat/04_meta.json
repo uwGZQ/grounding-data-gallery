@@ -1,0 +1,10 @@
+{
+ "dataset": "sa1b_all_cat",
+ "split": "train",
+ "dataset_row_index": 71076,
+ "example_slot": 4,
+ "rng_seed": 525736,
+ "category_name": "tower . motorcycle",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

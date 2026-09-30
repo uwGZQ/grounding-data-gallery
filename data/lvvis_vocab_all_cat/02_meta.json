@@ -1,0 +1,95 @@
+{
+ "dataset": "lvvis_vocab_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "lvvis",
+ "loader_len": 3054,
+ "dataset_row_index": 1628,
+ "example_slot": 2,
+ "rng_seed": 317933,
+ "source_parquet": "grounding_data/video_data/LV-VIS/cache/lvvis_train.parquet",
+ "style": "video_instance",
+ "video_id": "1674",
+ "video_name": "01674",
+ "frames_dir": "mm-olmo/video_datasets/LV-VIS/train/JPEGImages/01674",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00023",
+ "height": 1080,
+ "width": 1920,
+ "num_frames": 24,
+ "stored_fps": 5.0,
+ "duration_s": 4.8,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "rendered_playback_fps": 5.0,
+ "contact_sheet_frame_positions": [
+  0,
+  3,
+  7,
+  10,
+  13,
+  16,
+  20,
+  23
+ ],
+ "category_name": "CD . SD card . accordion . action camera . aerosol can . air conditioner . air fryer . airplane . alarm clock . alcohol . alcohol lamp . alligator . almond . ambulance . amplifier . anklet . antelope . antenna . apple . applesauce . apricot . apron . armband . armchair . armoire . armor . army tank . artichoke . ashtray . asparagus . atomizer . automatic washer . avocado . award . awning . ax . baboon . baby buggy . backhoe . backpack . badger . bagpipe . baguet . bait . balance scale . balances . ball . ballet skirt . balloon . ballpoint pen . bamboo . bamboo shoots . banana . band aid . bandage . banjo . banner . barbell . barcode . barrel . barrette . barrow . baseball . baseball bat . baseball cap . baseball glove . basket . basketball . basketball backboard . bass guitar . bass horn . bassoon . bat (animal) . bath mat . bath towel . bathrobe . bathtub . battery . beach towel . beachball . beaker . bean curd . beanbag . beanie . bear . bed . bedpan . beef (food) . beeper . beer bottle . beer can . beetle . bell . bell pepper . belt . belt buckle . beluga whale . bench . beret . bib . bible . bicycle . bicycle pump . billards . billboard . binder . binder clip . binoculars . bird . birdbath . birdcage . birdfeeder . birdhouse . birthday cake . birthday card . blackboard . blanket . blazer . blender . blimp . blouse . blue whale . blueberry . board eraser . boat . bobby pin . body thermometer . boiled egg . bolo tie . bolt . bongos . book . bookcase . bookend . bookmark . boot . bottle . bottle cap . bottle opener . bouquet . bow (decorative ribbons) . bow (weapon) . bow-tie . bowl . bowler hat . bowling ball . box . boxing glove . bracelet . brass plaque . brassiere . bread . bread-bin . briefcase . broccoli . broom . bubble gum . bucket . building blocks . bulldog . bulldozer . bulletin board . bulletproof vest . bullhorn . bun . bunk bed . buoy . burette . bus (vehicle) . butter . butterfly . button . cab (taxi) . cabbage . cabinet . cable car . cage . cake . calculator . calendar . camcorder . camel . camera . camera lens . camera tripod . camper (vehicle) . can . can opener . candle . candle holder . candy bar . candy cane . canister . canoe . cantaloup . canteen . canvas bag . car (automobile) . car battery . car jack . car odometer . carabiner . card . card game . cardigan . cargo ship . carnation . carpet . carrot . cart . carton . casserole . cassette . cassette player . cat . cauliflower . cd player . cell phone charger . cello . cellular telephone . centipede . centrifuge . certificate . chain mail . chair . chaise longue . chalice . chalk . chandelier . chap . charger . checkbook . cheese curls . cheetah . chef hat . cheongsam . cherry . chessboard . chestnut . chewing gum . chicken (animal) . chickpea . chili (vegetable) . chime . chinaware . chisel . chocolate bar . choker . chopping board . chopstick . christmas tree . cicada . cigar box . cigarette . clam . clarinet . clasp . claw hammer . cleat (for securing rope) . clippers (for plants) . cloak . clock . clock tower . clothes hamper . clothespin . coaster . coat . coat hanger . coatrack . cockatoo . cockroach . coconut . cod . coffee maker . coffee mug . coffeepot . coin . combination lock . comic book . compass . compass (drawing tool) . computer box . computer keyboard . condiment . cone . convertible (automobile) . cooler (for food) . cork (bottle plug) . corkscrew . cornet . correction fluid . correction tape . cotton swab . cougar . cover . coverall . cow . cowboy hat . crab (animal) . cranberry . crane . crate . crawfish . crayon . cream pitcher . crib . crisp (potato chip) . crock pot . crossbar . crowbar . crucifix . cruise ship . crutch . cucumber . cup . cupcake . curling iron . curtain . cushion . cuttlefish . cymbal . dagger . dalmatian . dartboard . darts . date (fruit) . deadbolt . deck chair . deer . defibrillator . dehumidifier . desk . desk chair . detergent . diaper . die . dining table . dirt bike . discus . dish . dish antenna . dishrag . dishtowel . dishwasher . dispenser . diving board . dog . dog collar . doll . dollar . dolphin . domestic ass . doorknob . doormat . double-sided tape . doughnut . dove . dragonfly . dragonfruit . drawer . drawing board . dress . dress hat . dresser . drill . drill bit . drone . dropper . drum (musical instrument) . drum set . drumstick . duck . duct tape . duffel bag . dulcimer . dumbbell . dumpling . dumpster . durian . dustpan . e-cigarette . e-reader . eagle . earmuffs . earphone . earplug . earring . easel . eclair . eel . egg . egg roll . egg tart . egg yolk . eggbeater . eggplant . electric bicycle . electric chair . electric drill . electric heater . electric kettle . elephant . envelope . eraser . escargot . excavator . external hard drive . eye liner . eye shadow . eyepatch . face mask . falcon . fan . faucet . fedora . ferret . fig (fruit) . file (tool) . file folder . fire alarm . fire engine . fire extinguisher . fire truck . firefly . fireplace . fireplug . first-aid kit . fish . fishbowl . fishing rod . flag . flagpole . flamingo . flash drive . flashlight . flea . flip-flop (sandal) . flower arrangement . flowerpot . flute . fly . folding chair . folding knife . football (american) . football helmet . footstool . fork . forklift . fox . fragrance . freight car . french horn . fridge magnet . fried chicken . frisbee . frog . fruit juice . frying pan . fume hood . funnel . game console . gameboard . gamepad . gaming chairs . garbage truck . garlic . gas pipe . gas stove . gasmask . gazelle . gemstone . generator . giant panda . gift wrap . giraffe . glass (drink container) . glider . globe . glockenspiel . glove . glue . go-kart . goat . goggles . goldfish . golf ball . golf club . golfcart . goose . gorilla . gourd . grape . grapefruit . grasshopper . grater . gravestone . green onion . green plants (potted plants) . griddle . grill . guava . guitar . gun . hair curler . hair dryer . hairbrush . hairnet . hairpin . halter top . ham . hamburger . hammer . hammock . hamper . hamster . hand grips strengthener . hand towel . handbag . handcart . handcuff . handkerchief . handle . handsaw . hang glider . hard drive . hardback book . harmonium . hat . hatbox . headband . headboard . headlamp . headlight . headscarf . headset . heart . hedgehog . helicopter . helmet . heron . high heels . high jump standards . highchair . hinge . hippopotamus . hockey stick . hog . honey . hoodie . hookah . horse . horse buggy . hose . hot dog . hot-air balloon . hotplate . hourglass . houseboat . hovercraft . humidifier . hummingbird . hurdle . ice pack . ice skate . icecream . igniter . incense burner . inflatable bed . infusion pump . iron (for clothing) . ironing board . jackal . jacket . jackfruit . jaguar . jar . javelin . jean . jeep . jellyfish . jersey . jet plane . joystick . jump rope . kangaroo . kayak . keg . kennel . kettle . kettlebell . key . keycard . kimono . kitchen paper . kitchen sink . kite . kiwi fruit . knee pad . knife . knob . koala . lab coat . ladder . ladybug . lamb-chop . lamp . lamppost . lampshade . lantern . lanyard . laptop computer . lasagna . latch . lawn mower . leather shoes . legging (clothing) . lego . lemon . leopard cat . lettuce . level (tools) . license plate . life buoy . life jacket . lightbulb . lighter . lighthouse . lightning rod . lion . lip balm . lipstick . liquor . lizard . loader . lobster . locker . log . lollipop . long jump pit . lychee . machine gun . magazine . magic cube . maglev . magnet . magpie . mailbox (at home) . mallard . mammoth . manatee . mandolin . mango . manhole . manual (instruction book) . map . marble . marker . marten . martini . mashed potato . masher . mask . massage chair . mast . mat (gym equipment) . match . matchbox . mealworms . measuring stick . meatball . mechanical pencil . medal . megaphone . melon . memo pad . microphone . microscope . microwave oven . milestone . milk . milk can . milkshake . minivan . mint candy . mirror . mitten . mixer (kitchen tool) . mole . monitor (computer equipment) . monkey . moose . mop . mosquito . motor vehicle . motorcycle . mouse (computer equipment) . mousepad . mug . mushroom . music box . music stand . music stool . nail polish . nailfile . napkin . nebulizer . necklace . necktie . nectarine . needle . nest . nightingale . nightshirt . nightstand . noodle . nosebag (for animals) . noseband (for animals) . notebook . notepad . nut . nutcracker . oar . oboe . octopus (animal) . octopus (food) . oil lamp . oil tanker . okra . onion . orange (fruit) . organ . ostrich . otoscope . otter . oven . owl . oxygen concentrator . oyster . pad . pad (electronic product) . paddle . padlock . paint brush . paintbrush . painting . palette . pan (for cooking) . papaya . paper bag . paper clip . parachute . parasail (sports) . parchment . parka . parrot . passenger ship . passion fruit . pasta strainer . pastry . peach . peacock . pear . peeler (tool for fruit and vegetables) . pegboard . pelican . pen . pencil . pencil box . pencil sharpener . pendulum . penguin . pennant . persimmon . person . petri dish . phonograph record . piano . pickaxe . pickup truck . picnic basket . picture . pigeon . piggy bank . pill . pillow . pin (non jewelry) . pineapple . pinecone . ping-pong ball . pinwheel . pipe . pirate flag . pistol . pizza . place mat . plastic bag . plate . platypus . playpen . pliers . plow (farm equipment) . plume . pocket watch . poker . poker chip . polar bear . pole . police car . polo shirt . pomegranate . pool cue . pool table . popcorn . popsicle . postcard . poster . pot . potato . potholder . pouch . power bank . power drill . power saw . praying mantis . pressure cooker . printer . projector . propeller . protective suit . protractor . prune . pudding . puffer (fish) . puffin . pug-dog . pumpkin . puncher . puppet . puzzle . quesadilla . quiche . quilt . quince . rabbit . raccoon . race car . radar . radiator . radio receiver . raft . rag doll . raincoat . raisins . ramen . rat . razor . razorblade . rearview mirror . record player . reflector . refrigerator . relay baton . remote control . remote control car . rhinoceros . rice cooker . rickshaw . rifle . ring . road map . roadblock . roast duck . robe . rocket . roller skate . rollerblade . rolling pin . router (computer equipment) . rowboat . ruler . runner (carpet) . safety hammer . safety pin . sail . sailboat . salad plate . salami . salmon (fish) . salmon (food) . sandal (type of shoe) . sandbag . sandpaper . sandwich . sardine . satchel . saucepan . sausage . saxophone . scallops . scanner . scarecrow . scarf . school bus . scissors . scoreboard . scorpions . screw . screwdriver . scrubbing brush . sculpture . sea urchin . seagull . seahorse . seal . seaplane . seashell . seaweed . sedan . selfie stick . sewing machine . shampoo . shark . sharpie . shaver (electric) . shawl . shears . sheep . shelf . shepherd dog . shield . shirt . shoe . shoehorn . shoeshine . shopping cart . short pants . shot glass . shot put . shoulder bag . shovel . shower cap . shower curtain . shower head . shredder (for paper) . shrimp . side table . signboard . sink . skateboard . ski . ski parka . ski pole . skirt . skunk . sled . sleeping bag . slide . slipper (footwear) . smartwatch . smoothie . snake . snow leopard . snowboard . snowman . snowmobile . soap . soccer ball . sock . socket . sofa . sofa bed . sombrero . soundbar . soupspoon . soya milk . space shuttle . sparrow . spatula . speaker (stero equipment) . spear . spectacles . speed bump . sphygmomanometer . spice rack . spider . spinach . sponge . spoon . sportswear . spotlight . spring rolls . squash . squid (food) . squirrel . stapler (stapling machine) . starfish . starfruit . starting blocks . steak (food) . steak knife . steamroller . steel drum . steering wheel . stepladder . stereo (sound system) . stethoscope . sticker . stirring rod . stool . stop sign . strap . straw (for drinking) . strawberry . street sign . streetlight . string cheese . stuffed animal . submarine . subway . subwoofer . sugar bowl . sugarcane (plant) . suit (clothing) . suitcase . sunflower . sunglasses . surfboard . surveillance cameras . sushi . suspenders . swallow . swan . sweater . sweatshirt . sweet potato . swim cap . swim ring . swimming goggles . swimsuit . swing . sword . synthesizer . syringe . table . table lamp . table-tennis table . tablecloth . tachometer . tag . taillight . tambourine . tangerine . tank top (clothing) . tape (sticky cloth or paper) . tape measure . tapestry . target . tarp . tassel . tea bag . teakettle . teapot . telephone . telephone pole . telephoto lens . television set . tennis ball . tennis racket . tent . tequila . termites . test tube . test tube holder . thermometer . thermostat . thimble . thumbtack . tiger . tights (clothing) . timer . tinfoil . tissue paper . toast (food) . toaster . tobacco pipe . toilet . toilet tissue . tomato . tongs . toolbox . toothbrush . toothpaste . toothpick . tow truck . towel . towel rack . toy . tractor (farm equipment) . traffic light . trailer truck . train (railroad vehicle) . trampoline . trash can . travel pillow . tray . trench coat . triangle (musical instrument) . tricycle . tripod . trombone . trophy . trousers . trowel . truck . trumpet . trunk . tuba . tuna . turban . turnip . turtle . tweezers . typewriter . umbrella . unicycle . urinal . vacuum cleaner . vase . vending machine . vent . vest . vinegar . viola . violin . virtual reality headset . visor . vodka . volleyball . vulture . waffle . wagon wheel . waist pack . walkie talkie . walking stick . walkman . wall socket . wallet . walnut . walrus . warthog . washbasin . wasp . watch . water bottle . water cooler . water gun . water heater . water jug . water ski . water temperature gauge . watering can . watermelon . webcam . weightlifting belt . welding torch . wet suit . wheel . wheelchair . whipped cream . whistle . white sugar . whiteboard . wig . wind chime . windmill . windshield wiper . wine bottle . wine bucket . wineglass . wireless chargers . wok . wolf . wood plane . wooden spoon . woodpecker . wreath . wrench . wristband . wristlet . writing brush . xylophone . xylophone mallets . yo-yo . yoga mat . zebra . zucchini",
+ "n_instances": 1,
+ "instances": [
+  {
+   "index": 0,
+   "id": 8740,
+   "label": "seaplane",
+   "char_spans": [
+    [
+     10750,
+     10758
+    ]
+   ],
+   "span_text": [
+    "seaplane"
+   ],
+   "iscrowd": 0,
+   "frames_present": 24,
+   "first_present_frame": 0,
+   "last_present_frame": 23
+  }
+ ],
+ "metadata": {
+  "dataset": "LVVISVocabAllCat",
+  "video_id": "1674",
+  "video_name": "01674",
+  "num_masklets": 1
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "dataset": "viposeg_pos_neg",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "viposeg",
+ "loader_len": 2800,
+ "dataset_row_index": 933,
+ "example_slot": 1,
+ "rng_seed": 213582,
+ "source_parquet": "grounding_data/video_data/VIPOSeg/cache/viposeg_train.parquet",
+ "style": "video_instance",
+ "video_id": "1690_kE-r_TO3EtE",
+ "video_name": "1690_kE-r_TO3EtE",
+ "frames_dir": "grounding_data/video_data/VIPOSeg/train/JPEGImages/1690_kE-r_TO3EtE",
+ "video_path": null,
+ "first_frame": "00001968",
+ "last_frame": "00002010",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 15,
+ "stored_fps": 6.0,
+ "duration_s": 2.5,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  14
+ ],
+ "category_name": "handrail or fence . printer . other animal . bat . billboard or bulletin board . sky . mountain . playground slide . building . table or desk",
+ "n_instances": 4,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1,
+   "label": "handrail or fence",
+   "char_spans": [
+    [
+     0,
+     17
+    ]
+   ],
+   "span_text": [
+    "handrail or fence"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 1,
+   "id": 4,
+   "label": "building",
+   "char_spans": [
+    [
+     117,
+     125
+    ]
+   ],
+   "span_text": [
+    "building"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 2,
+   "id": 5,
+   "label": "sky",
+   "char_spans": [
+    [
+     81,
+     84
+    ]
+   ],
+   "span_text": [
+    "sky"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 3,
+   "id": 7,
+   "label": "billboard or bulletin board",
+   "char_spans": [
+    [
+     51,
+     78
+    ]
+   ],
+   "span_text": [
+    "billboard or bulletin board"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  }
+ ],
+ "metadata": {
+  "dataset": "VIPOSegPosNeg",
+  "video_id": "1690_kE-r_TO3EtE",
+  "video_name": "1690_kE-r_TO3EtE",
+  "num_masklets": 4
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

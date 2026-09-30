@@ -1,0 +1,352 @@
+{
+ "dataset": "vicas_actions",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "vicas_caption_actions",
+ "loader_len": 12211,
+ "dataset_row_index": 9768,
+ "example_slot": 4,
+ "rng_seed": 587096,
+ "source_parquet": "grounding_data/video_data/ViCaS/cache/vicas_train_actions.parquet",
+ "style": "video_caption_actions",
+ "video_id": "019502",
+ "video_name": "019502_-Wb2tNCc3dM.mp4",
+ "frames_dir": "grounding_data/video_data/ViCaS/video_frames/019502",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00299",
+ "height": 480,
+ "width": 640,
+ "num_frames": 300,
+ "stored_fps": 30.0,
+ "duration_s": 10.0,
+ "rendered_frame_positions": [
+  0,
+  5,
+  10,
+  15,
+  20,
+  25,
+  30,
+  35,
+  40,
+  45,
+  50,
+  55,
+  60,
+  65,
+  70,
+  75,
+  80,
+  85,
+  90,
+  95,
+  100,
+  105,
+  110,
+  115,
+  120,
+  125,
+  130,
+  135,
+  140,
+  145,
+  150,
+  155,
+  160,
+  165,
+  170,
+  175,
+  180,
+  185,
+  190,
+  195,
+  200,
+  205,
+  210,
+  215,
+  220,
+  225,
+  230,
+  235,
+  240,
+  245,
+  250,
+  255,
+  260,
+  265,
+  270,
+  275,
+  280,
+  285,
+  290,
+  295
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  40,
+  85,
+  125,
+  170,
+  210,
+  255,
+  295
+ ],
+ "category_name": "A woman lowers onto a green mat, while resting on two blue objects. A woman next to her adjusts and crosses over to touch her.",
+ "n_instances": 5,
+ "instances": [
+  {
+   "index": 0,
+   "id": 0,
+   "label": "A woman / her / her",
+   "char_spans": [
+    [
+     0,
+     7
+    ],
+    [
+     84,
+     87
+    ],
+    [
+     122,
+     125
+    ]
+   ],
+   "span_text": [
+    "A woman",
+    "her",
+    "her"
+   ],
+   "iscrowd": 0,
+   "frames_present": 300,
+   "first_present_frame": 0,
+   "last_present_frame": 299
+  },
+  {
+   "index": 1,
+   "id": 1,
+   "label": "a green mat",
+   "char_spans": [
+    [
+     20,
+     31
+    ]
+   ],
+   "span_text": [
+    "a green mat"
+   ],
+   "iscrowd": 0,
+   "frames_present": 300,
+   "first_present_frame": 0,
+   "last_present_frame": 299
+  },
+  {
+   "index": 2,
+   "id": 2,
+   "label": "two blue objects",
+   "char_spans": [
+    [
+     50,
+     66
+    ]
+   ],
+   "span_text": [
+    "two blue objects"
+   ],
+   "iscrowd": 0,
+   "frames_present": 300,
+   "first_present_frame": 0,
+   "last_present_frame": 299
+  },
+  {
+   "index": 3,
+   "id": 3,
+   "label": "two blue objects",
+   "char_spans": [
+    [
+     50,
+     66
+    ]
+   ],
+   "span_text": [
+    "two blue objects"
+   ],
+   "iscrowd": 0,
+   "frames_present": 300,
+   "first_present_frame": 0,
+   "last_present_frame": 299
+  },
+  {
+   "index": 4,
+   "id": 4,
+   "label": "A woman",
+   "char_spans": [
+    [
+     68,
+     75
+    ]
+   ],
+   "span_text": [
+    "A woman"
+   ],
+   "iscrowd": 0,
+   "frames_present": 300,
+   "first_present_frame": 0,
+   "last_present_frame": 299
+  }
+ ],
+ "metadata": {
+  "dataset": "vicas_actions",
+  "video_id": "019502",
+  "video_name": "019502_-Wb2tNCc3dM.mp4",
+  "num_groups": 5,
+  "num_actions": 5
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ },
+ "n_actions": 5,
+ "actions": [
+  {
+   "index": 0,
+   "action_id": 0,
+   "text": [
+    "lowers"
+   ],
+   "char_spans": [
+    [
+     8,
+     14
+    ]
+   ],
+   "type": "prepositional",
+   "frame_spans": [
+    [
+     0,
+     299
+    ]
+   ],
+   "segments_s": [
+    [
+     0.0,
+     10.0
+    ]
+   ],
+   "temporal_confidence": "medium"
+  },
+  {
+   "index": 1,
+   "action_id": 1,
+   "text": [
+    "resting"
+   ],
+   "char_spans": [
+    [
+     39,
+     46
+    ]
+   ],
+   "type": "posture",
+   "frame_spans": [
+    [
+     0,
+     299
+    ]
+   ],
+   "segments_s": [
+    [
+     0.0,
+     10.0
+    ]
+   ],
+   "temporal_confidence": "high"
+  },
+  {
+   "index": 2,
+   "action_id": 2,
+   "text": [
+    "adjusts"
+   ],
+   "char_spans": [
+    [
+     88,
+     95
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     0,
+     149
+    ]
+   ],
+   "segments_s": [
+    [
+     0.0,
+     5.0
+    ]
+   ],
+   "temporal_confidence": "high"
+  },
+  {
+   "index": 3,
+   "action_id": 3,
+   "text": [
+    "crosses over"
+   ],
+   "char_spans": [
+    [
+     100,
+     112
+    ]
+   ],
+   "type": "phrasal",
+   "frame_spans": [
+    [
+     150,
+     239
+    ]
+   ],
+   "segments_s": [
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "temporal_confidence": "high"
+  },
+  {
+   "index": 4,
+   "action_id": 4,
+   "text": [
+    "touch"
+   ],
+   "char_spans": [
+    [
+     116,
+     121
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     225,
+     299
+    ]
+   ],
+   "segments_s": [
+    [
+     7.5,
+     10.0
+    ]
+   ],
+   "temporal_confidence": "high"
+  }
+ ]
+}

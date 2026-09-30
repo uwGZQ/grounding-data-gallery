@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_pos_neg",
+ "split": "train",
+ "dataset_row_index": 293576,
+ "example_slot": 2,
+ "rng_seed": 318981,
+ "category_name": "paper . boat . pillow . house . towel . floor . handbag . fire hydrant . cup",
+ "n_instances": 5,
+ "metadata_augmentation": null
+}

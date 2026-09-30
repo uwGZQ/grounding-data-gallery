@@ -1,0 +1,10 @@
+{
+ "dataset": "sa1b_all_cat",
+ "split": "train",
+ "dataset_row_index": 17769,
+ "example_slot": 1,
+ "rng_seed": 211549,
+ "category_name": "person in purple jacket . person in striped shirt . person in pink jacket",
+ "n_instances": 3,
+ "metadata_augmentation": null
+}

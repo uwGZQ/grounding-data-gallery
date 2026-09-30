@@ -1,0 +1,13 @@
+{
+ "dataset": "gpic_min_10",
+ "split": "train",
+ "dataset_row_index": 21554,
+ "example_slot": 3,
+ "rng_seed": 445119,
+ "category_name": "A man in a plaid shirt plays a guitar while another man stands near the drums. A person holds the guitar, and a woman sings next to a man. Several stands are positioned nearby.",
+ "n_instances": 13,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/GPIC/cache/gpic_min_10_train.parquet",
+ "image_id": "gpic_train_000056369_22f13abfc87a7cf361048ab219fdbd2be0d5e063",
+ "image_path": "grounding_data/GPIC/images/train/22f13abfc87a7cf361048ab219fdbd2be0d5e06394a5ba9ff52acd0320f30f06.jpg"
+}

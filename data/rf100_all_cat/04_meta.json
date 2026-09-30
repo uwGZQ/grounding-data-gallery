@@ -1,0 +1,10 @@
+{
+ "dataset": "rf100_all_cat",
+ "split": "train",
+ "dataset_row_index": 92947,
+ "example_slot": 4,
+ "rng_seed": 542442,
+ "category_name": "car . human . bicycle . truck",
+ "n_instances": 81,
+ "metadata_augmentation": null
+}

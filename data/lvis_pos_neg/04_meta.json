@@ -1,0 +1,10 @@
+{
+ "dataset": "lvis_pos_neg",
+ "split": "train",
+ "dataset_row_index": 99387,
+ "example_slot": 4,
+ "rng_seed": 576506,
+ "category_name": "horse . nailfile",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

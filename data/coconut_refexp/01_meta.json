@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_refexp",
+ "split": "train",
+ "dataset_row_index": 15068,
+ "example_slot": 1,
+ "rng_seed": 276363,
+ "category_name": "a person on the bed and a book near the person",
+ "n_instances": 3,
+ "metadata_augmentation": null
+}

@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_flickr30k",
+ "split": "train",
+ "dataset_row_index": 27960,
+ "example_slot": 1,
+ "rng_seed": 202140,
+ "category_name": "The musician is playing the guitar and singing.",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

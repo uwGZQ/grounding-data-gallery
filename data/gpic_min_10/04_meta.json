@@ -1,0 +1,13 @@
+{
+ "dataset": "gpic_min_10",
+ "split": "train",
+ "dataset_row_index": 28738,
+ "example_slot": 4,
+ "rng_seed": 549848,
+ "category_name": "Six people are seated together, including a person in a dark turtleneck, a man in a plaid shirt, and an older person wearing a patterned vest. A woman in a tan cardigan sits beside a woman in a light top, while a person in a striped cardigan and a person in a maroon top are. Several plates and plates are scattered across the surface, and a red cup sits near the center. The group is seated on wooden chairs.",
+ "n_instances": 18,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/GPIC/cache/gpic_min_10_train.parquet",
+ "image_id": "gpic_train_000074996_64a77ed44d901334b9a24950fbda135b37b79133",
+ "image_path": "grounding_data/GPIC/images/train/64a77ed44d901334b9a24950fbda135b37b791337e444cd88c0859c4979eec17.jpg"
+}

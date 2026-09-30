@@ -1,0 +1,10 @@
+{
+ "dataset": "pixmo_point_all_cat",
+ "split": "train",
+ "dataset_row_index": 28415,
+ "example_slot": 2,
+ "rng_seed": 303717,
+ "category_name": "buttons . numbered buttons . arrow buttons",
+ "n_instances": 59,
+ "metadata_augmentation": null
+}

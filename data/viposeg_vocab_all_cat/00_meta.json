@@ -1,0 +1,122 @@
+{
+ "dataset": "viposeg_vocab_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "viposeg",
+ "loader_len": 2800,
+ "dataset_row_index": 186,
+ "example_slot": 0,
+ "rng_seed": 153636,
+ "source_parquet": "grounding_data/video_data/VIPOSeg/cache/viposeg_train.parquet",
+ "style": "video_instance",
+ "video_id": "1116_esxk1NXF_OM",
+ "video_name": "1116_esxk1NXF_OM",
+ "frames_dir": "grounding_data/video_data/VIPOSeg/train/JPEGImages/1116_esxk1NXF_OM",
+ "video_path": null,
+ "first_frame": "00001383",
+ "last_frame": "00001425",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 15,
+ "stored_fps": 6.0,
+ "duration_s": 2.5,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  14
+ ],
+ "category_name": "airplane . athletic field . backboard . bag or package . ball . ball net . barrel . basket . bat . bathtub . bed . bench . bicycle . billboard or bulletin board . blackboard . book . bottle or cup . box . bridge . building . bus . cage . car . cat . cattle . ceiling . chair or seat . clock . clothes . commode . computer . crosswalk . cupboard or showcase or storage rack . curtain . cushion or carpet . dog . door . escalator . fan . fishbowl . flag . floor . flower . flower pot or vase . food . fruit . goal . grandstand . grass . ground . gun . handrail or fence . horse . house . ice . instrument . keyboard . ladder . lake . lamp . microwave oven . mirror . mobile phone . motorcycle . mountain . other animal . other construction . other electronic product . other machine . other plant . painting or poster . parasol or umbrella . path . person . pillar . pillow . pipeline . plate . playground slide . pole . printer . raft . rail . refrigerator . river . road . roadblock . roaster . sand . screen or television . sculpture . sea . shelf . ship or boat . skateboard . sky . snowfield . sofa . stair . stone . table or desk . tent . textiles . tissue . tool . tower . toy . traffic light . train . trash can . traveling case or trolley case . tree . truck . tub or bowl or pot . tyre . wall . washing machine . water . waterfall . well or well lid . wheeled machine . windmill . window . wood",
+ "n_instances": 3,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1,
+   "label": "wall",
+   "char_spans": [
+    [
+     1296,
+     1300
+    ]
+   ],
+   "span_text": [
+    "wall"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 1,
+   "id": 2,
+   "label": "floor",
+   "char_spans": [
+    [
+     454,
+     459
+    ]
+   ],
+   "span_text": [
+    "floor"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 2,
+   "id": 3,
+   "label": "person",
+   "char_spans": [
+    [
+     847,
+     853
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  }
+ ],
+ "metadata": {
+  "dataset": "VIPOSegVocabAllCat",
+  "video_id": "1116_esxk1NXF_OM",
+  "video_name": "1116_esxk1NXF_OM",
+  "num_masklets": 3
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

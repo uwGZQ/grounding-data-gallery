@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_flickr30k",
+ "split": "train",
+ "dataset_row_index": 55920,
+ "example_slot": 2,
+ "rng_seed": 306869,
+ "category_name": "A dog is running through deep snow pack.",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

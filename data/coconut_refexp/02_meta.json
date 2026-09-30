@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_refexp",
+ "split": "train",
+ "dataset_row_index": 30136,
+ "example_slot": 2,
+ "rng_seed": 381092,
+ "category_name": "the person in white shirt jumping for the frisbee on the right",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

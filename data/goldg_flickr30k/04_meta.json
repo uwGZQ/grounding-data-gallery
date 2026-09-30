@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_flickr30k",
+ "split": "train",
+ "dataset_row_index": 111840,
+ "example_slot": 4,
+ "rng_seed": 516327,
+ "category_name": "A couple walk to the side.",
+ "n_instances": 3,
+ "metadata_augmentation": null
+}

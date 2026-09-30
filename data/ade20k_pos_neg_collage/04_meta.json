@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg_collage",
+ "split": "train",
+ "dataset_row_index": 25573,
+ "example_slot": 4,
+ "rng_seed": 557033,
+ "category_name": "bed column . right foot . pingeonhole . pigeonhole . lockgate . books . door . tissue dispenser . tupper . straw bales . oil lamp . stalagmite . bicycle rack . swivel chair . keyboard . sea lion . hair . steel industry . intercom . head rail . trtees . filing cabinets . barn . dumbbells . projector rack . pool balls . shops . utility panels . jackets . crater . footbridge . watchtower . bird . mesh guard rail . trench . blade . park gear . fire escape . pon . radar . pens . telescope . car scrapping . bottle . handle . shower head . steet light . entrance . crosswalk . canister . chopstick . desk . maps . soaps . rim . pressure washer . escarpment . flavorings . adding machine . water mill . strongroom",
+ "n_instances": 17,
+ "metadata_augmentation": "collage"
+}

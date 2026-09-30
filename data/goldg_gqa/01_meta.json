@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_gqa",
+ "split": "train",
+ "dataset_row_index": 100511,
+ "example_slot": 1,
+ "rng_seed": 273740,
+ "category_name": "Which kind of animal is on the post?",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_gqa",
+ "split": "train",
+ "dataset_row_index": 402043,
+ "example_slot": 4,
+ "rng_seed": 587927,
+ "category_name": "the eye of a man.",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

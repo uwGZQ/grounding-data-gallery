@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_refexp",
+ "split": "train",
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 171634,
+ "category_name": "a red-jacketed person on the skis and the light above the person",
+ "n_instances": 3,
+ "metadata_augmentation": null
+}

@@ -1,0 +1,91 @@
+{
+ "dataset": "ytvis_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "ytvis",
+ "loader_len": 2985,
+ "dataset_row_index": 1791,
+ "example_slot": 3,
+ "rng_seed": 427303,
+ "source_parquet": "grounding_data/video_data/YT-VIS/cache/ytvis_train.parquet",
+ "style": "video_instance",
+ "video_id": "1816",
+ "video_name": "d6faaaf726",
+ "frames_dir": "mm-olmo/video_datasets/YT-VIS/train/videos",
+ "video_path": "mm-olmo/video_datasets/YT-VIS/train/videos/d6faaaf726.mp4",
+ "first_frame": "00000",
+ "last_frame": "00095",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 20,
+ "stored_fps": 6.0,
+ "duration_s": 3.333,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  3,
+  5,
+  8,
+  11,
+  14,
+  16,
+  19
+ ],
+ "category_name": "airplane",
+ "n_instances": 1,
+ "instances": [
+  {
+   "index": 0,
+   "id": 3005,
+   "label": "airplane",
+   "char_spans": [
+    [
+     0,
+     8
+    ]
+   ],
+   "span_text": [
+    "airplane"
+   ],
+   "iscrowd": 0,
+   "frames_present": 20,
+   "first_present_frame": 0,
+   "last_present_frame": 19
+  }
+ ],
+ "metadata": {
+  "dataset": "YTVISAllCat",
+  "video_id": "1816",
+  "video_name": "d6faaaf726",
+  "num_masklets": 1
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

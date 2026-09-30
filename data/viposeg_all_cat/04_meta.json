@@ -1,0 +1,194 @@
+{
+ "dataset": "viposeg_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "viposeg",
+ "loader_len": 2800,
+ "dataset_row_index": 2240,
+ "example_slot": 4,
+ "rng_seed": 538046,
+ "source_parquet": "grounding_data/video_data/VIPOSeg/cache/viposeg_train.parquet",
+ "style": "video_instance",
+ "video_id": "672_L6ia_RbfIF0",
+ "video_name": "672_L6ia_RbfIF0",
+ "frames_dir": "grounding_data/video_data/VIPOSeg/train/JPEGImages/672_L6ia_RbfIF0",
+ "video_path": null,
+ "first_frame": "00000183",
+ "last_frame": "00000225",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 15,
+ "stored_fps": 6.0,
+ "duration_s": 2.5,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  14
+ ],
+ "category_name": "grass . house . path . person . sky . tool . tree",
+ "n_instances": 7,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1,
+   "label": "grass",
+   "char_spans": [
+    [
+     0,
+     5
+    ]
+   ],
+   "span_text": [
+    "grass"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 1,
+   "id": 2,
+   "label": "path",
+   "char_spans": [
+    [
+     16,
+     20
+    ]
+   ],
+   "span_text": [
+    "path"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 2,
+   "id": 3,
+   "label": "house",
+   "char_spans": [
+    [
+     8,
+     13
+    ]
+   ],
+   "span_text": [
+    "house"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 3,
+   "id": 4,
+   "label": "sky",
+   "char_spans": [
+    [
+     32,
+     35
+    ]
+   ],
+   "span_text": [
+    "sky"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 4,
+   "id": 5,
+   "label": "tree",
+   "char_spans": [
+    [
+     45,
+     49
+    ]
+   ],
+   "span_text": [
+    "tree"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  },
+  {
+   "index": 5,
+   "id": 6,
+   "label": "tool",
+   "char_spans": [
+    [
+     38,
+     42
+    ]
+   ],
+   "span_text": [
+    "tool"
+   ],
+   "iscrowd": 0,
+   "frames_present": 12,
+   "first_present_frame": 0,
+   "last_present_frame": 11
+  },
+  {
+   "index": 6,
+   "id": 7,
+   "label": "person",
+   "char_spans": [
+    [
+     23,
+     29
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  }
+ ],
+ "metadata": {
+  "dataset": "VIPOSegAllCat",
+  "video_id": "672_L6ia_RbfIF0",
+  "video_name": "672_L6ia_RbfIF0",
+  "num_masklets": 7
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

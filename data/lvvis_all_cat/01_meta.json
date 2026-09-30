@@ -1,0 +1,109 @@
+{
+ "dataset": "lvvis_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "lvvis",
+ "loader_len": 3054,
+ "dataset_row_index": 610,
+ "example_slot": 1,
+ "rng_seed": 215114,
+ "source_parquet": "grounding_data/video_data/LV-VIS/cache/lvvis_train.parquet",
+ "style": "video_instance",
+ "video_id": "659",
+ "video_name": "00659",
+ "frames_dir": "mm-olmo/video_datasets/LV-VIS/train/JPEGImages/00659",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00019",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 20,
+ "stored_fps": 5.0,
+ "duration_s": 4.0,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "rendered_playback_fps": 5.0,
+ "contact_sheet_frame_positions": [
+  0,
+  3,
+  5,
+  8,
+  11,
+  14,
+  16,
+  19
+ ],
+ "category_name": "bucket . rat",
+ "n_instances": 2,
+ "instances": [
+  {
+   "index": 0,
+   "id": 3290,
+   "label": "rat",
+   "char_spans": [
+    [
+     9,
+     12
+    ]
+   ],
+   "span_text": [
+    "rat"
+   ],
+   "iscrowd": 0,
+   "frames_present": 20,
+   "first_present_frame": 0,
+   "last_present_frame": 19
+  },
+  {
+   "index": 1,
+   "id": 3291,
+   "label": "bucket",
+   "char_spans": [
+    [
+     0,
+     6
+    ]
+   ],
+   "span_text": [
+    "bucket"
+   ],
+   "iscrowd": 0,
+   "frames_present": 20,
+   "first_present_frame": 0,
+   "last_present_frame": 19
+  }
+ ],
+ "metadata": {
+  "dataset": "LVVISAllCat",
+  "video_id": "659",
+  "video_name": "00659",
+  "num_masklets": 2
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "dataset": "ytvis_pos_neg",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "ytvis",
+ "loader_len": 2985,
+ "dataset_row_index": 995,
+ "example_slot": 1,
+ "rng_seed": 207568,
+ "source_parquet": "grounding_data/video_data/YT-VIS/cache/ytvis_train.parquet",
+ "style": "video_instance",
+ "video_id": "1008",
+ "video_name": "784398620a",
+ "frames_dir": "mm-olmo/video_datasets/YT-VIS/train/videos",
+ "video_path": "mm-olmo/video_datasets/YT-VIS/train/videos/784398620a.mp4",
+ "first_frame": "00000",
+ "last_frame": "00070",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 15,
+ "stored_fps": 6.0,
+ "duration_s": 2.5,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  14
+ ],
+ "category_name": "cat",
+ "n_instances": 1,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1680,
+   "label": "cat",
+   "char_spans": [
+    [
+     0,
+     3
+    ]
+   ],
+   "span_text": [
+    "cat"
+   ],
+   "iscrowd": 0,
+   "frames_present": 15,
+   "first_present_frame": 0,
+   "last_present_frame": 14
+  }
+ ],
+ "metadata": {
+  "dataset": "YTVISPosNeg",
+  "video_id": "1008",
+  "video_name": "784398620a",
+  "num_masklets": 1
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

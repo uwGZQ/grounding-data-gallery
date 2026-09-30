@@ -1,0 +1,10 @@
+{
+ "dataset": "rf100_all_cat",
+ "split": "train",
+ "dataset_row_index": 46474,
+ "example_slot": 2,
+ "rng_seed": 332984,
+ "category_name": "Wheat Head",
+ "n_instances": 25,
+ "metadata_augmentation": null
+}

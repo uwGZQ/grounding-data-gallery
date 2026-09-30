@@ -1,0 +1,13 @@
+{
+ "dataset": "inat21_all_cat",
+ "split": "train",
+ "dataset_row_index": 309,
+ "example_slot": 1,
+ "rng_seed": 292421,
+ "category_name": "Buccinum undatum",
+ "n_instances": 1,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/iNat21/cache/inat21_filtered_train.parquet",
+ "image_id": 2710935,
+ "image_path": "grounding_data/iNat21/images/val/05277_Animalia_Mollusca_Gastropoda_Neogastropoda_Buccinidae_Buccinum_undatum/877cec6a-5f7a-4d5b-9380-a11b6cfcb891.jpg"
+}

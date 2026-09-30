@@ -1,0 +1,10 @@
+{
+ "dataset": "rf100_all_cat",
+ "split": "train",
+ "dataset_row_index": 69710,
+ "example_slot": 3,
+ "rng_seed": 437713,
+ "category_name": "Sea Cucumber",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

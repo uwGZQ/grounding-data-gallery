@@ -1,0 +1,13 @@
+{
+ "dataset": "inat21_pos_neg",
+ "split": "train",
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 177415,
+ "category_name": "Fejervarya limnocharis",
+ "n_instances": 1,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/iNat21/cache/inat21_filtered_train.parquet",
+ "image_id": 2686855,
+ "image_path": "grounding_data/iNat21/images/val/02976_Animalia_Chordata_Amphibia_Anura_Dicroglossidae_Fejervarya_limnocharis/21759419-1a57-4fef-8500-46ed58cd3ccb.jpg"
+}

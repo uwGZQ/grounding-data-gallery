@@ -1,0 +1,13 @@
+{
+ "dataset": "gpic_min_10",
+ "split": "train",
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 130932,
+ "category_name": "Three smiling women stand together on a bright beach. The bride in the center holds a bouquet, while the woman to her left wears a blue dress and the woman on the right wears a purple dress and sandals.",
+ "n_instances": 10,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/GPIC/cache/gpic_min_10_train.parquet",
+ "image_id": "gpic_train_000000005_95663a2f9e1a23404b66fef36f17fa3441c6af98",
+ "image_path": "grounding_data/GPIC/images/train/95663a2f9e1a23404b66fef36f17fa3441c6af98487f4f4974edc000c953df98.jpg"
+}

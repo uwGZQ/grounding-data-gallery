@@ -1,0 +1,13 @@
+{
+ "dataset": "gpic_min_10",
+ "split": "train",
+ "dataset_row_index": 7184,
+ "example_slot": 1,
+ "rng_seed": 235661,
+ "category_name": "A woman in a black dress holds a small cup while a man pours from another cup. A bride holds a bouquet of white flowers, and a flower is pinned to the man. Several small cups are nearby.",
+ "n_instances": 13,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/GPIC/cache/gpic_min_10_train.parquet",
+ "image_id": "gpic_train_000018897_b92463e46a0c1cfa1c8e738b211273f39611b49f",
+ "image_path": "grounding_data/GPIC/images/train/b92463e46a0c1cfa1c8e738b211273f39611b49f356640bd3201ab9662d6f16e.jpg"
+}

@@ -1,0 +1,360 @@
+{
+ "dataset": "vicas_actions",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "vicas_caption_actions",
+ "loader_len": 12211,
+ "dataset_row_index": 2442,
+ "example_slot": 1,
+ "rng_seed": 272909,
+ "source_parquet": "grounding_data/video_data/ViCaS/cache/vicas_train_actions.parquet",
+ "style": "video_caption_actions",
+ "video_id": "020767",
+ "video_name": "020767_0-Z3mrmSQ24.mp4",
+ "frames_dir": "grounding_data/video_data/ViCaS/video_frames/020767",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00298",
+ "height": 480,
+ "width": 640,
+ "num_frames": 299,
+ "stored_fps": 30.0,
+ "duration_s": 9.967,
+ "rendered_frame_positions": [
+  0,
+  5,
+  10,
+  15,
+  20,
+  25,
+  30,
+  35,
+  40,
+  45,
+  50,
+  55,
+  60,
+  65,
+  70,
+  75,
+  80,
+  85,
+  90,
+  95,
+  100,
+  105,
+  110,
+  115,
+  120,
+  125,
+  130,
+  135,
+  140,
+  145,
+  150,
+  155,
+  160,
+  165,
+  170,
+  175,
+  180,
+  185,
+  190,
+  195,
+  200,
+  205,
+  210,
+  215,
+  220,
+  225,
+  230,
+  235,
+  240,
+  245,
+  250,
+  255,
+  260,
+  265,
+  270,
+  275,
+  280,
+  285,
+  290,
+  295
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  40,
+  85,
+  125,
+  170,
+  210,
+  255,
+  295
+ ],
+ "category_name": "Three men run to the left and jump. A man in white walks to the right and a man in black walks right to adjust a hurdle.",
+ "n_instances": 6,
+ "instances": [
+  {
+   "index": 0,
+   "id": 0,
+   "label": "Three men",
+   "char_spans": [
+    [
+     0,
+     9
+    ]
+   ],
+   "span_text": [
+    "Three men"
+   ],
+   "iscrowd": 0,
+   "frames_present": 181,
+   "first_present_frame": 0,
+   "last_present_frame": 270
+  },
+  {
+   "index": 1,
+   "id": 1,
+   "label": "Three men",
+   "char_spans": [
+    [
+     0,
+     9
+    ]
+   ],
+   "span_text": [
+    "Three men"
+   ],
+   "iscrowd": 0,
+   "frames_present": 183,
+   "first_present_frame": 0,
+   "last_present_frame": 282
+  },
+  {
+   "index": 2,
+   "id": 2,
+   "label": "Three men",
+   "char_spans": [
+    [
+     0,
+     9
+    ]
+   ],
+   "span_text": [
+    "Three men"
+   ],
+   "iscrowd": 0,
+   "frames_present": 146,
+   "first_present_frame": 0,
+   "last_present_frame": 282
+  },
+  {
+   "index": 3,
+   "id": 3,
+   "label": "A man",
+   "char_spans": [
+    [
+     36,
+     41
+    ]
+   ],
+   "span_text": [
+    "A man"
+   ],
+   "iscrowd": 0,
+   "frames_present": 48,
+   "first_present_frame": 113,
+   "last_present_frame": 160
+  },
+  {
+   "index": 4,
+   "id": 4,
+   "label": "a man",
+   "char_spans": [
+    [
+     74,
+     79
+    ]
+   ],
+   "span_text": [
+    "a man"
+   ],
+   "iscrowd": 0,
+   "frames_present": 128,
+   "first_present_frame": 159,
+   "last_present_frame": 286
+  },
+  {
+   "index": 5,
+   "id": 5,
+   "label": "a hurdle",
+   "char_spans": [
+    [
+     111,
+     119
+    ]
+   ],
+   "span_text": [
+    "a hurdle"
+   ],
+   "iscrowd": 0,
+   "frames_present": 150,
+   "first_present_frame": 89,
+   "last_present_frame": 284
+  }
+ ],
+ "metadata": {
+  "dataset": "vicas_actions",
+  "video_id": "020767",
+  "video_name": "020767_0-Z3mrmSQ24.mp4",
+  "num_groups": 6,
+  "num_actions": 5
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ },
+ "n_actions": 5,
+ "actions": [
+  {
+   "index": 0,
+   "action_id": 0,
+   "text": [
+    "run"
+   ],
+   "char_spans": [
+    [
+     10,
+     13
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     0,
+     104
+    ]
+   ],
+   "segments_s": [
+    [
+     0.0,
+     3.5
+    ]
+   ],
+   "temporal_confidence": "high"
+  },
+  {
+   "index": 1,
+   "action_id": 1,
+   "text": [
+    "jump"
+   ],
+   "char_spans": [
+    [
+     30,
+     34
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     45,
+     89
+    ]
+   ],
+   "segments_s": [
+    [
+     1.5,
+     3.0
+    ]
+   ],
+   "temporal_confidence": "high"
+  },
+  {
+   "index": 2,
+   "action_id": 2,
+   "text": [
+    "walks"
+   ],
+   "char_spans": [
+    [
+     51,
+     56
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     105,
+     164
+    ]
+   ],
+   "segments_s": [
+    [
+     3.5,
+     5.5
+    ]
+   ],
+   "temporal_confidence": "high"
+  },
+  {
+   "index": 3,
+   "action_id": 3,
+   "text": [
+    "walks"
+   ],
+   "char_spans": [
+    [
+     89,
+     94
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     180,
+     269
+    ]
+   ],
+   "segments_s": [
+    [
+     6.0,
+     9.0
+    ]
+   ],
+   "temporal_confidence": "medium"
+  },
+  {
+   "index": 4,
+   "action_id": 4,
+   "text": [
+    "adjust"
+   ],
+   "char_spans": [
+    [
+     104,
+     110
+    ]
+   ],
+   "type": "simple",
+   "frame_spans": [
+    [
+     225,
+     298
+    ]
+   ],
+   "segments_s": [
+    [
+     7.5,
+     9.967
+    ]
+   ],
+   "temporal_confidence": "medium"
+  }
+ ]
+}

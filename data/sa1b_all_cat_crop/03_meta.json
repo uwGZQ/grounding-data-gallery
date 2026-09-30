@@ -1,0 +1,10 @@
+{
+ "dataset": "sa1b_all_cat_crop",
+ "split": "train",
+ "dataset_row_index": 53307,
+ "example_slot": 3,
+ "rng_seed": 429730,
+ "category_name": "building with green roof . balloon decoration . tree . tree canopy . pavement . street",
+ "n_instances": 6,
+ "metadata_augmentation": "crop"
+}

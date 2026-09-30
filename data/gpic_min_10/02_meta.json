@@ -1,0 +1,13 @@
+{
+ "dataset": "gpic_min_10",
+ "split": "train",
+ "dataset_row_index": 14369,
+ "example_slot": 2,
+ "rng_seed": 340390,
+ "category_name": "Numerous pale flower buds are scattered among green leaves.",
+ "n_instances": 16,
+ "metadata_augmentation": null,
+ "source_parquet": "grounding_data/GPIC/cache/gpic_min_10_train.parquet",
+ "image_id": "gpic_train_000037624_aed7a0c77dfaab5cceba3ee5389b9c46e02e7624",
+ "image_path": "grounding_data/GPIC/images/train/aed7a0c77dfaab5cceba3ee5389b9c46e02e762423c902ef84d7f795ef9b4280.jpg"
+}

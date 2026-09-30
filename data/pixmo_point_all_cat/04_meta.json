@@ -1,0 +1,10 @@
+{
+ "dataset": "pixmo_point_all_cat",
+ "split": "train",
+ "dataset_row_index": 56830,
+ "example_slot": 4,
+ "rng_seed": 513175,
+ "category_name": "white roofs on portable toilets . portable toilets . white signs on front doors of portable toilets",
+ "n_instances": 45,
+ "metadata_augmentation": null
+}

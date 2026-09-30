@@ -1,0 +1,132 @@
+{
+ "dataset": "ovis_vocab_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "ovis",
+ "loader_len": 607,
+ "dataset_row_index": 283,
+ "example_slot": 2,
+ "rng_seed": 314874,
+ "source_parquet": "grounding_data/video_data/OVIS/cache/ovis_train.parquet",
+ "style": "video_instance",
+ "video_id": "308",
+ "video_name": "ac093040",
+ "frames_dir": "mm-olmo/video_datasets/OVIS/train/ac093040",
+ "video_path": null,
+ "first_frame": "img_0000001",
+ "last_frame": "img_0000043",
+ "height": 654,
+ "width": 912,
+ "num_frames": 43,
+ "stored_fps": 6.0,
+ "duration_s": 7.167,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42
+ ],
+ "rendered_playback_fps": 6.0,
+ "contact_sheet_frame_positions": [
+  0,
+  6,
+  12,
+  18,
+  24,
+  30,
+  36,
+  42
+ ],
+ "category_name": "airplane . bear . bicycle . bird . boat . cat . cow . dog . elephant . fish . giant panda . giraffe . horse . lizard . monkey . motorcycle . parrot . person . poultry . rabbit . sheep . tiger . turtle . vehical . zebra",
+ "n_instances": 2,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1935,
+   "label": "lizard",
+   "char_spans": [
+    [
+     110,
+     116
+    ]
+   ],
+   "span_text": [
+    "lizard"
+   ],
+   "iscrowd": 0,
+   "frames_present": 43,
+   "first_present_frame": 0,
+   "last_present_frame": 42
+  },
+  {
+   "index": 1,
+   "id": 1936,
+   "label": "lizard",
+   "char_spans": [
+    [
+     110,
+     116
+    ]
+   ],
+   "span_text": [
+    "lizard"
+   ],
+   "iscrowd": 0,
+   "frames_present": 43,
+   "first_present_frame": 0,
+   "last_present_frame": 42
+  }
+ ],
+ "metadata": {
+  "dataset": "OVISVocabAllCat",
+  "video_id": "308",
+  "video_name": "ac093040",
+  "num_masklets": 2
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

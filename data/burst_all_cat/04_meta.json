@@ -1,0 +1,263 @@
+{
+ "dataset": "burst_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "burst",
+ "loader_len": 500,
+ "dataset_row_index": 400,
+ "example_slot": 4,
+ "rng_seed": 583025,
+ "source_parquet": "grounding_data/video_data/BURST/cache/burst_train.parquet",
+ "style": "video_instance",
+ "video_id": "2334",
+ "video_name": "HACS__Camel_ride_v_owDp3KOHmu8",
+ "frames_dir": "mm-olmo/video_datasets/TAO-Amodal/frames/train/HACS/Camel_ride_v_owDp3KOHmu8",
+ "video_path": null,
+ "first_frame": "frame0201",
+ "last_frame": "frame0951",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 181,
+ "stored_fps": 6.0,
+ "duration_s": 30.167,
+ "rendered_frame_positions": [
+  0,
+  2,
+  3,
+  5,
+  6,
+  8,
+  9,
+  11,
+  12,
+  14,
+  15,
+  17,
+  18,
+  20,
+  21,
+  23,
+  24,
+  26,
+  27,
+  29,
+  30,
+  32,
+  33,
+  35,
+  36,
+  38,
+  39,
+  41,
+  42,
+  44,
+  45,
+  47,
+  48,
+  50,
+  51,
+  53,
+  54,
+  56,
+  57,
+  59,
+  61,
+  62,
+  64,
+  65,
+  67,
+  68,
+  70,
+  71,
+  73,
+  74,
+  76,
+  77,
+  79,
+  80,
+  82,
+  83,
+  85,
+  86,
+  88,
+  89,
+  91,
+  92,
+  94,
+  95,
+  97,
+  98,
+  100,
+  101,
+  103,
+  104,
+  106,
+  107,
+  109,
+  110,
+  112,
+  113,
+  115,
+  116,
+  118,
+  119,
+  121,
+  123,
+  124,
+  126,
+  127,
+  129,
+  130,
+  132,
+  133,
+  135,
+  136,
+  138,
+  139,
+  141,
+  142,
+  144,
+  145,
+  147,
+  148,
+  150,
+  151,
+  153,
+  154,
+  156,
+  157,
+  159,
+  160,
+  162,
+  163,
+  165,
+  166,
+  168,
+  169,
+  171,
+  172,
+  174,
+  175,
+  177,
+  178,
+  180
+ ],
+ "rendered_playback_fps": 3.967,
+ "contact_sheet_frame_positions": [
+  0,
+  26,
+  51,
+  77,
+  103,
+  129,
+  154,
+  180
+ ],
+ "category_name": "camel . headscarf . person",
+ "n_instances": 5,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1,
+   "label": "camel",
+   "char_spans": [
+    [
+     0,
+     5
+    ]
+   ],
+   "span_text": [
+    "camel"
+   ],
+   "iscrowd": 0,
+   "frames_present": 181,
+   "first_present_frame": 0,
+   "last_present_frame": 180
+  },
+  {
+   "index": 1,
+   "id": 3,
+   "label": "person",
+   "char_spans": [
+    [
+     20,
+     26
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 115,
+   "first_present_frame": 17,
+   "last_present_frame": 180
+  },
+  {
+   "index": 2,
+   "id": 4,
+   "label": "person",
+   "char_spans": [
+    [
+     20,
+     26
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 118,
+   "first_present_frame": 22,
+   "last_present_frame": 180
+  },
+  {
+   "index": 3,
+   "id": 5,
+   "label": "person",
+   "char_spans": [
+    [
+     20,
+     26
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 81,
+   "first_present_frame": 85,
+   "last_present_frame": 165
+  },
+  {
+   "index": 4,
+   "id": 6,
+   "label": "headscarf",
+   "char_spans": [
+    [
+     8,
+     17
+    ]
+   ],
+   "span_text": [
+    "headscarf"
+   ],
+   "iscrowd": 0,
+   "frames_present": 92,
+   "first_present_frame": 85,
+   "last_present_frame": 176
+  }
+ ],
+ "metadata": {
+  "dataset": "BURSTAllCat",
+  "video_id": "2334",
+  "video_name": "HACS__Camel_ride_v_owDp3KOHmu8",
+  "num_masklets": 5
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

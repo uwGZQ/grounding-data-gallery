@@ -1,0 +1,10 @@
+{
+ "dataset": "pixmo_point_all_cat_crop",
+ "split": "train",
+ "dataset_row_index": 28415,
+ "example_slot": 2,
+ "rng_seed": 357400,
+ "category_name": "self care product",
+ "n_instances": 11,
+ "metadata_augmentation": "crop"
+}

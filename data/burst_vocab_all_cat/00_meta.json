@@ -1,0 +1,263 @@
+{
+ "dataset": "burst_vocab_all_cat",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "burst",
+ "loader_len": 500,
+ "dataset_row_index": 33,
+ "example_slot": 0,
+ "rng_seed": 189335,
+ "source_parquet": "grounding_data/video_data/BURST/cache/burst_train.parquet",
+ "style": "video_instance",
+ "video_id": "488",
+ "video_name": "HACS__Playing_squash_v_v0N4o4Px8jQ_scene_0_0-1695",
+ "frames_dir": "mm-olmo/video_datasets/TAO-Amodal/frames/train/HACS/Playing_squash_v_v0N4o4Px8jQ_scene_0_0-1695",
+ "video_path": null,
+ "first_frame": "frame0001",
+ "last_frame": "frame1171",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 235,
+ "stored_fps": 6.0,
+ "duration_s": 39.167,
+ "rendered_frame_positions": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  14,
+  16,
+  18,
+  20,
+  22,
+  24,
+  26,
+  28,
+  29,
+  31,
+  33,
+  35,
+  37,
+  39,
+  41,
+  43,
+  45,
+  47,
+  49,
+  51,
+  53,
+  55,
+  57,
+  59,
+  61,
+  63,
+  65,
+  67,
+  69,
+  71,
+  73,
+  75,
+  77,
+  79,
+  81,
+  83,
+  85,
+  87,
+  88,
+  90,
+  92,
+  94,
+  96,
+  98,
+  100,
+  102,
+  104,
+  106,
+  108,
+  110,
+  112,
+  114,
+  116,
+  118,
+  120,
+  122,
+  124,
+  126,
+  128,
+  130,
+  132,
+  134,
+  136,
+  138,
+  140,
+  142,
+  144,
+  146,
+  147,
+  149,
+  151,
+  153,
+  155,
+  157,
+  159,
+  161,
+  163,
+  165,
+  167,
+  169,
+  171,
+  173,
+  175,
+  177,
+  179,
+  181,
+  183,
+  185,
+  187,
+  189,
+  191,
+  193,
+  195,
+  197,
+  199,
+  201,
+  203,
+  205,
+  206,
+  208,
+  210,
+  212,
+  214,
+  216,
+  218,
+  220,
+  222,
+  224,
+  226,
+  228,
+  230,
+  232,
+  234
+ ],
+ "rendered_playback_fps": 3.051,
+ "contact_sheet_frame_positions": [
+  0,
+  33,
+  67,
+  100,
+  134,
+  167,
+  201,
+  234
+ ],
+ "category_name": "Ferris wheel . aerosol can . airplane . apricot . apron . armchair . army tank . ashtray . atomizer . automatic washer . ax . baby buggy . backpack . bagel . bagpipe . ball . balloon . banana . bandage . banner . barbell . barrow . baseball bat . baseball glove . basket . basketball . basketball hoop . bath mat . beaker . beanie . bear . bed . bedspread . beeper . beer can . bell . bell pepper . bench . bib . bicycle . binder . binoculars . bird . birdcage . birdfeeder . birdhouse . biscuit (bread) . black sheep . blanket . blender . boat . book . book bag . booklet . bottle . bottle cap . bottle opener . bouquet . bow (weapon) . bowl . bracelet . briefcase . broom . bucket . bull . bun . buoy . bus (vehicle) . business card . butcher knife . cab (taxi) . cabinet . calendar . calf . camcorder . camel . camera . can . candle . canister . canoe . canteen . cape . car (automobile) . car battery . card . cardigan . carrot . cart . carton . cat . cellular telephone . chain mail . chair . chicken (animal) . chocolate bar . chopping board . chopstick . cigar box . cigarette . cigarette case . clip . clipboard . clock . clothes hamper . clutch bag . coat . coat hanger . cock . coffee filter . coffee table . coffeepot . coin . computer keyboard . cone . control . convertible (automobile) . cooking utensil . cooler (for food) . cornet . cover . cow . cowboy hat . crab (animal) . cracker . crate . crisp (potato chip) . crow . crumb . crutch . cub (animal) . cube . cucumber . cup . cupcake . curtain . cushion . cutting tool . cylinder . cymbal . deer . desk . die . dining table . dirt bike . dish . dispenser . dog . doormat . drawer . dress hat . drone . drum (musical instrument) . drumstick . duck . duckling . duffel bag . dustpan . eagle . earphone . earring . edible corn . egg . eggbeater . elephant . envelope . fan . faucet . file (tool) . fire engine . fish . fishing rod . flag . flashlight . flowerpot . flute glass . football helmet . footstool . fork . frisbee . frog . frying pan . gameboard . garbage . garbage truck . garden hose . gasmask . giant panda . gift wrap . giraffe . glove . goat . goggles . golf club . golfcart . goose . gorilla . grocery bag . guitar . gun . hair dryer . hair spray . hairbrush . hamburger . hammer . hamster . hand towel . handbag . handcart . handcuff . handkerchief . handle . handsaw . harmonium . hat . headscarf . helicopter . helmet . heron . hippopotamus . hockey stick . hog . horse . hose . iPod . icecream . igniter . iron (for clothing) . jacket . jean . jeep . jersey . kayak . kettle . kite . knife . knitting needle . knob . ladle . lamp . lanyard . laptop computer . latch . lawn mower . lemon . lettuce . life buoy . life jacket . lion . lizard . log . magazine . mailbox (at home) . mallet . marker . mat (gym equipment) . matchbox . mattress . measuring cup . measuring stick . medicine . microphone . minivan . mirror . mixer (kitchen tool) . money . monitor (computer equipment) computer monitor . monkey . mop . motor scooter . motorboat . motorcycle . mouse (animal rodent) . mouse (computer equipment) . musical instrument . napkin . necklace . nest . newsstand . notebook . notepad . nut . oar . onion . orange (fruit) . pacifier . packet . paddle . paintbox . paintbrush . painting . pajamas . palette . pan (for cooking) . paper towel . parachute . parrot . peeler (tool for fruit and vegetables) . pelican . pen . pencil . penguin . pepper mill . persimmon . person . petfood . phonograph record . piano . pickle . pickup truck . pigeon . pillow . ping-pong ball . pipe . pistol . pitcher (vessel for liquid) . pizza . plate . pliers . polar bear . pole . pony . poster . pot . potato . pouch . power shovel . pumpkin . puppet . rabbit . race car . racket . raft . rag doll . railcar (part of a train) . rat . razorblade . record player . refrigerator . remote control . rhinoceros . rifle . rubber band . runner (carpet) . saddle blanket . saltshaker . sandal (type of shoe) . sandwich . saucepan . saxophone . scarf . school bus . scissors . scoreboard . scraper . screwdriver . scrubbing brush . sculpture . serving dish . shaker . shampoo . shark . sharpener . shaver (electric) . shawl . shears . sheep . shield . shirt . shoe . shopping cart . short pants . shoulder bag . shovel . sieve . skateboard . ski . ski pole . skirt . sled . slipper (footwear) . soap . sock . sofa . soupspoon . spatula . spectacles . spider . sponge . spoon . spotlight . squirrel . statue (sculpture) . steering wheel . step stool . stool . stove . straw (for drinking) . strawberry . street sign . stylus . sugar bowl . suitcase . sunglasses . sunscreen . surfboard . sweat pants . sweater . sweatshirt . sword . table . table lamp . tablecloth . tag . tank top (clothing) . tape (sticky cloth or paper) . tape measure . tarp . teacup . teakettle . teapot . telephone . television set . tennis racket . thermometer . thermos bottle . thread . tiger . tinfoil . tissue paper . toast (food) . toaster . tobacco pipe . tongs . toolbox . toothbrush . toothpaste . toothpick . tote bag . tow truck . towel . toy . tractor (farm equipment) . traffic light . trailer truck . train (railroad vehicle) . trash can . tray . tripod . trousers . truck . turkey (bird) . turtle . umbrella . underwear . vacuum cleaner . violin . volleyball . waffle iron . walking stick . wallet . walrus . wardrobe . watch . water bottle . water faucet . water filter . water jug . water scooter . water ski . watermelon . wheel . wheelchair . wig . wind chime . windshield wiper . wine bottle . wineglass . wooden spoon . wrench . yacht . zebra",
+ "n_instances": 5,
+ "instances": [
+  {
+   "index": 0,
+   "id": 1,
+   "label": "person",
+   "char_spans": [
+    [
+     3450,
+     3456
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 231,
+   "first_present_frame": 0,
+   "last_present_frame": 234
+  },
+  {
+   "index": 1,
+   "id": 2,
+   "label": "person",
+   "char_spans": [
+    [
+     3450,
+     3456
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 234,
+   "first_present_frame": 0,
+   "last_present_frame": 234
+  },
+  {
+   "index": 2,
+   "id": 5,
+   "label": "person",
+   "char_spans": [
+    [
+     3450,
+     3456
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 24,
+   "first_present_frame": 201,
+   "last_present_frame": 224
+  },
+  {
+   "index": 3,
+   "id": 6,
+   "label": "person",
+   "char_spans": [
+    [
+     3450,
+     3456
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 200,
+   "last_present_frame": 224
+  },
+  {
+   "index": 4,
+   "id": 7,
+   "label": "person",
+   "char_spans": [
+    [
+     3450,
+     3456
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 26,
+   "first_present_frame": 200,
+   "last_present_frame": 225
+  }
+ ],
+ "metadata": {
+  "dataset": "BURSTVocabAllCat",
+  "video_id": "488",
+  "video_name": "HACS__Playing_squash_v_v0N4o4Px8jQ_scene_0_0-1695",
+  "num_masklets": 5
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

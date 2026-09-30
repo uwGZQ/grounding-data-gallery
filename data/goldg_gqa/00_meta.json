@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_gqa",
+ "split": "train",
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 169011,
+ "category_name": "a man wearing jeans.",
+ "n_instances": 2,
+ "metadata_augmentation": null
+}

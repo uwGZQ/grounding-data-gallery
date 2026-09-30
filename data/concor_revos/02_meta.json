@@ -1,0 +1,119 @@
+{
+ "dataset": "concor_revos",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "concor_revos",
+ "loader_len": 11570,
+ "dataset_row_index": 4628,
+ "example_slot": 2,
+ "rng_seed": 312370,
+ "source_parquet": "grounding_data/video_data/ReVOS/cache/concor_revos_train.parquet",
+ "style": "video_caption",
+ "video_id": "LV-VIS/train/01814",
+ "video_name": "LV-VIS__train__01814",
+ "frames_dir": "mm-olmo/video_datasets/ReVOS/LV-VIS/train/01814",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00023",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 24,
+ "stored_fps": 5.0,
+ "duration_s": 4.8,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "rendered_playback_fps": 5.0,
+ "contact_sheet_frame_positions": [
+  0,
+  3,
+  7,
+  10,
+  13,
+  16,
+  20,
+  23
+ ],
+ "category_name": "Which motorcycle(s) are black?",
+ "n_instances": 2,
+ "instances": [
+  {
+   "index": 0,
+   "id": 0,
+   "label": "Which motorcycle(s)",
+   "char_spans": [
+    [
+     0,
+     19
+    ]
+   ],
+   "span_text": [
+    "Which motorcycle(s)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 22,
+   "first_present_frame": 0,
+   "last_present_frame": 23
+  },
+  {
+   "index": 1,
+   "id": 1,
+   "label": "Which motorcycle(s)",
+   "char_spans": [
+    [
+     0,
+     19
+    ]
+   ],
+   "span_text": [
+    "Which motorcycle(s)"
+   ],
+   "iscrowd": 0,
+   "frames_present": 10,
+   "first_present_frame": 14,
+   "last_present_frame": 23
+  }
+ ],
+ "metadata": {
+  "dataset": "concor_revos",
+  "video_id": "LV-VIS/train/01814",
+  "video_name": "LV-VIS__train__01814",
+  "num_groups": 2,
+  "sample_id": "revos__train__explicit__LV-VIS-train-01814__e57",
+  "exp_id": "57",
+  "source_split": "train",
+  "cohort": "explicit",
+  "negative": false,
+  "disposition": "complete_bcc"
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

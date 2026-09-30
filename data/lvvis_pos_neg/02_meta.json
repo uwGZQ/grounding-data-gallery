@@ -1,0 +1,107 @@
+{
+ "dataset": "lvvis_pos_neg",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "lvvis",
+ "loader_len": 3054,
+ "dataset_row_index": 1425,
+ "example_slot": 2,
+ "rng_seed": 309566,
+ "source_parquet": "grounding_data/video_data/LV-VIS/cache/lvvis_train.parquet",
+ "style": "video_instance",
+ "video_id": "1517",
+ "video_name": "01517",
+ "frames_dir": "mm-olmo/video_datasets/LV-VIS/train/JPEGImages/01517",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00017",
+ "height": 480,
+ "width": 846,
+ "num_frames": 18,
+ "stored_fps": 5.0,
+ "duration_s": 3.6,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "rendered_playback_fps": 5.0,
+ "contact_sheet_frame_positions": [
+  0,
+  2,
+  5,
+  7,
+  10,
+  12,
+  15,
+  17
+ ],
+ "category_name": "person . bookcase",
+ "n_instances": 2,
+ "instances": [
+  {
+   "index": 0,
+   "id": 7915,
+   "label": "person",
+   "char_spans": [
+    [
+     0,
+     6
+    ]
+   ],
+   "span_text": [
+    "person"
+   ],
+   "iscrowd": 0,
+   "frames_present": 18,
+   "first_present_frame": 0,
+   "last_present_frame": 17
+  },
+  {
+   "index": 1,
+   "id": 7916,
+   "label": "bookcase",
+   "char_spans": [
+    [
+     9,
+     17
+    ]
+   ],
+   "span_text": [
+    "bookcase"
+   ],
+   "iscrowd": 0,
+   "frames_present": 18,
+   "first_present_frame": 0,
+   "last_present_frame": 17
+  }
+ ],
+ "metadata": {
+  "dataset": "LVVISPosNeg",
+  "video_id": "1517",
+  "video_name": "01517",
+  "num_masklets": 2
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

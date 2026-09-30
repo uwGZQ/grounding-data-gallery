@@ -1,0 +1,10 @@
+{
+ "dataset": "entity_seg_vocab_all_cat",
+ "split": "train",
+ "dataset_row_index": 8053,
+ "example_slot": 4,
+ "rng_seed": 541574,
+ "category_name": "hoodie . earthware pot with handle . pumkin . bench . kiosk . ski . remote control . duck . T-shirt . towel . plastic bag . folder . kite . boy . barrel . pen . paper . poster . airplane . canoe . paper bag . ski board . chandilier . keyboard . flag . screwdriver . switch . saucer . traffic sign . mat . plate . wrench . cable car . mushroom . glass . napkin . photo . dining table . signboard . boat . flowerpot . filling cabinets . tong . leather shoes . orange . box . pigeon . backpack . medical equipment . jar . train . meat . food processor . tv receiver . chair . microphone . rug . painting . speaker . fork . woman . handbag . girl . leaf . scarf . bowl . packaging paper . surveillance camera . giraffe . turtle . mirror . cat . cable . blanket . coat . trunk . pizza . mobilephone . sconce . man . rifle . mouse . bicycle . ship . dog . kitchen cabinets . cow . motorbike . car . candle . bus . electric wire . ski pole . couch . hot ballon . camera . sheep . repair tool . coffee cup . chicken . ceiling lamp . crumb . suitcase . curtain . kitchen sink . scooter . golf . traffic light . book . sailboat . tube . gym equipment . ladder . van . musical instrument . nightstand . tableware . cutting board . laptop . plugs and sockets . cushion . faucet . bedroom bed . trash bin . spoon . stool . umbrella . played blocks . branch . bottle . apple . gas stove . gloves . hanger . table-knife . zebra . ordniary sofa . pipe . pillow . sculpture . lemon . tire . television . decoration . trolley . rope . paddle . billboard . wineglass . elephant . spatula . sparrow . sausage . person . deer . strawberry . flower . basket . screen . radish",
+ "n_instances": 20,
+ "metadata_augmentation": null
+}

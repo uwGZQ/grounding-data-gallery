@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_pancap",
+ "split": "train",
+ "dataset_row_index": 52108,
+ "example_slot": 2,
+ "rng_seed": 373197,
+ "category_name": "This image captures a central bronze statue of a man holding an umbrella. The statue stands on a red brick floor laid in a herringbone pattern. The bronze statue of a man is dressed in a red tie. He holds a large, open black umbrella. A glass and metal canopy provides partial coverage over the area. Nearby are small circular metal tables accompanied by several matching black metal chairs. Further back, a person with a backpack sits, while another person and a white car are visible in the distance.",
+ "n_instances": 14,
+ "metadata_augmentation": null
+}

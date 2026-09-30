@@ -1,0 +1,10 @@
+{
+ "dataset": "pixmo_point_all_cat_crop",
+ "split": "train",
+ "dataset_row_index": 14208,
+ "example_slot": 1,
+ "rng_seed": 252671,
+ "category_name": "candle flames . flame on candles . candles . pink, green, orange, purple, blue and yellow birthday candles . candle wicks . small round red candies on cake",
+ "n_instances": 51,
+ "metadata_augmentation": "crop"
+}

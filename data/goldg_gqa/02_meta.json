@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_gqa",
+ "split": "train",
+ "dataset_row_index": 201022,
+ "example_slot": 2,
+ "rng_seed": 378469,
+ "category_name": "white wave behind man. surfer. large calm sea water. surfboard. man surfing on board. red and blue board. How long is the hair? wave forming in back. blue trim of board. red surface to board. a man riding a surfboard. Is it outdoors or indoors?",
+ "n_instances": 11,
+ "metadata_augmentation": null
+}

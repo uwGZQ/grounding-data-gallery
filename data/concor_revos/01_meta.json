@@ -1,0 +1,102 @@
+{
+ "dataset": "concor_revos",
+ "split": "train",
+ "mode": "video_full_v2",
+ "mixture_group": "concor_revos",
+ "loader_len": 11570,
+ "dataset_row_index": 2314,
+ "example_slot": 1,
+ "rng_seed": 207641,
+ "source_parquet": "grounding_data/video_data/ReVOS/cache/concor_revos_train.parquet",
+ "style": "video_caption",
+ "video_id": "LV-VIS/train/00248",
+ "video_name": "LV-VIS__train__00248",
+ "frames_dir": "mm-olmo/video_datasets/ReVOS/LV-VIS/train/00248",
+ "video_path": null,
+ "first_frame": "00000",
+ "last_frame": "00024",
+ "height": 720,
+ "width": 1280,
+ "num_frames": 25,
+ "stored_fps": 5.0,
+ "duration_s": 5.0,
+ "rendered_frame_positions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "rendered_playback_fps": 5.0,
+ "contact_sheet_frame_positions": [
+  0,
+  3,
+  7,
+  10,
+  14,
+  17,
+  21,
+  24
+ ],
+ "category_name": "the largest electric rice cooker",
+ "n_instances": 1,
+ "instances": [
+  {
+   "index": 0,
+   "id": 0,
+   "label": "the largest electric rice cooker",
+   "char_spans": [
+    [
+     0,
+     32
+    ]
+   ],
+   "span_text": [
+    "the largest electric rice cooker"
+   ],
+   "iscrowd": 0,
+   "frames_present": 25,
+   "first_present_frame": 0,
+   "last_present_frame": 24
+  }
+ ],
+ "metadata": {
+  "dataset": "concor_revos",
+  "video_id": "LV-VIS/train/00248",
+  "video_name": "LV-VIS__train__00248",
+  "num_groups": 1,
+  "sample_id": "revos__train__implicit__LV-VIS-train-00248__e4",
+  "exp_id": "4",
+  "source_split": "train",
+  "cohort": "implicit",
+  "negative": false,
+  "disposition": "complete_bcc"
+ },
+ "checks": {
+  "zero_area_rle": 0,
+  "rle_size_mismatch": 0,
+  "segmentation_length_mismatch": 0,
+  "char_span_outside_text": 0,
+  "frame_size_mismatch": []
+ }
+}

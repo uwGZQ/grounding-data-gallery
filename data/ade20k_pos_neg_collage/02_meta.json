@@ -1,0 +1,10 @@
+{
+ "dataset": "ade20k_pos_neg_collage",
+ "split": "train",
+ "dataset_row_index": 12786,
+ "example_slot": 2,
+ "rng_seed": 347575,
+ "category_name": "tap wrench . decoration . ladle . handrail . premade house . light bulb . table lamp . ground leaves . iceberg . blind . wetland . souk . chair . staircase . door . paving stone . mountain . hockey rink . trees . field . wall . carpet . knob . back pillow . curtain . dried flowers . sade . drawer . cargo . pear . person swimming . runnel water . marking pens . building . place mat . test . wsall . torchiere lamp . refinery . workbench . incinerator . window . rug . side table . ceiling . toilet paper rolls . finial . cruet . umbrella stand . top support . pack bags . shade . vineyard . chandelier . whitewater . railroad track . double door . armchair . bowls . briefcase . sofa . idol",
+ "n_instances": 66,
+ "metadata_augmentation": "collage"
+}

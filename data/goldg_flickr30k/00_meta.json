@@ -1,0 +1,10 @@
+{
+ "dataset": "goldg_flickr30k",
+ "split": "train",
+ "dataset_row_index": 0,
+ "example_slot": 0,
+ "rng_seed": 97411,
+ "category_name": "A man in a pink shirt rides a bucking horse .",
+ "n_instances": 3,
+ "metadata_augmentation": null
+}

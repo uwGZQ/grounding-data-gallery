@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_vocab_all_cat_crop",
+ "split": "train",
+ "dataset_row_index": 293576,
+ "example_slot": 2,
+ "rng_seed": 375015,
+ "category_name": "cardboard . tv . wall-wood . blanket . toilet . window-blind . road . sandwich . motorcycle . water . playingfield . table . stairs . bus . mirror . book . carrot . orange . snow . skis . shelf . tennis racket . truck . parking meter . mountain . sheep . clock . airplane . net . gravel . keyboard . bed . house . paper . building . backpack . light . bear . fruit . baseball bat . potted plant . microwave . ceiling . sand . laptop . floor . curtain . handbag . knife . chair . mouse . cow . kite . rug . oven . fire hydrant . dog . skateboard . banana . bridge . platform . snowboard . frisbee . bird . wall-tile . horse . pizza . bowl . cat . fence . remote . hot dog . cabinet . person . bottle . cup . window . grass . baseball glove . elephant . banner . sea . pillow . tie . rock . tree . bench . spoon . stop sign . pavement . wall-stone . zebra . fork . scissors . counter . boat . flower . wall . couch . teddy bear . roof . floor-wood . vase . traffic light . sports ball . cell phone . tent . broccoli . train . hair drier . food . umbrella . toaster . cake . car . refrigerator . giraffe . wine glass . toothbrush . dirt . dining table . sink . sky . railroad . wall-brick . surfboard . apple . bicycle . donut . door . river . suitcase . towel",
+ "n_instances": 14,
+ "metadata_augmentation": "crop"
+}

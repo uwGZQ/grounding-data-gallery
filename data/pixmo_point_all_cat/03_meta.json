@@ -1,0 +1,10 @@
+{
+ "dataset": "pixmo_point_all_cat",
+ "split": "train",
+ "dataset_row_index": 42622,
+ "example_slot": 3,
+ "rng_seed": 408446,
+ "category_name": "people",
+ "n_instances": 10,
+ "metadata_augmentation": null
+}

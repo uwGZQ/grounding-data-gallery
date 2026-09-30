@@ -1,0 +1,10 @@
+{
+ "dataset": "pixmo_point_all_cat",
+ "split": "train",
+ "dataset_row_index": 14208,
+ "example_slot": 1,
+ "rng_seed": 198988,
+ "category_name": "apples . apple stems",
+ "n_instances": 64,
+ "metadata_augmentation": null
+}

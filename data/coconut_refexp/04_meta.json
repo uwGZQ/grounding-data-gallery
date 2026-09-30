@@ -1,0 +1,10 @@
+{
+ "dataset": "coconut_refexp",
+ "split": "train",
+ "dataset_row_index": 60273,
+ "example_slot": 4,
+ "rng_seed": 590550,
+ "category_name": "the small potted plant beside the arched doorway behind the swimmers",
+ "n_instances": 6,
+ "metadata_augmentation": null
+}
